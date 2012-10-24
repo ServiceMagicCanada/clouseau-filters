@@ -1,4 +1,4 @@
-all: build doc 
+all: build doc
 
 help: 
 	
@@ -21,7 +21,7 @@ doc:
 	fi;	
 	@rm -f API.md
 	@for x in `ls src/*.coffee`; do \
-	 ./node_modules/coffee-script/bin/coffee ./node_modules/readthis/bin/readthis.coffee $$x >> API.md;\
+	 readthis $$x >> API.md;\
 	done
 	
 
@@ -30,7 +30,7 @@ build: destroy
 	# Deleting ./lib then getting copy from ./src.	
 	@cp -r ./src ./lib
 	# Compiling ./lib coffeescripts into their respective destinations.	
-	@./node_modules/coffee-script/bin/coffee -cb -o ./lib ./lib		
+	@coffee -cb -o ./lib ./lib		
 	
 	# Deleting duplicate .coffee files since now we have .js copies
 	@for x in `find lib -name "*.coffee"`; do \
