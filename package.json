@@ -1,0 +1,23 @@
+{ "name": "clouseau-filters"
+  , "version": "0.0.1"
+  , "author": "Francois Lafortune <code@quickredfox.at>"
+  , "description": "centralized package dependencies common to all filters."
+  , "contributors": [ 
+    {
+      "name": "Francois Lafortune",
+      "email": "me@quickredfox.at"
+    } 
+  ]
+  , "main": "./lib/index.js"
+  , "dependencies": { 
+      "ouija":"https://github.com/quickredfox/ouija/tarball/master"
+    , "cheerio":"~0.10.1"
+    , "coffee-script": "~1.3.3"
+    , "readthis":"~0.0.3"
+  }
+  , "scripts":{
+    "test": "make test"
+    , "postinstall": "make"
+  }
+  , "engines": { "node": "~0.8.9" }
+}
