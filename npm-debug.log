@@ -1,0 +1,1709 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/quickredfox/.nvm/v0.8.9/bin/node',
+1 verbose cli   '/Users/quickredfox/.nvm/v0.8.9/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.1.61
+3 info using node@v0.8.9
+4 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/package.json
+5 warn package.json clouseau-filters@0.0.1 No README.md file found!
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/quickredfox/code/service-magic/clouseau-filters',
+7 verbose install   [ 'coffee-script', 'cheerio', 'readthis', 'ouija' ] ]
+8 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/package.json
+9 info preinstall clouseau-filters@0.0.1
+10 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'coffee-script@~1.3.3', null ]
+13 silly cache add name=undefined spec="coffee-script@~1.3.3" args=["coffee-script@~1.3.3",null]
+14 verbose parsed url { pathname: 'coffee-script@~1.3.3',
+14 verbose parsed url   path: 'coffee-script@~1.3.3',
+14 verbose parsed url   href: 'coffee-script@~1.3.3' }
+15 silly cache add name="coffee-script" spec="~1.3.3" args=["coffee-script","~1.3.3"]
+16 verbose parsed url { pathname: '~1.3.3', path: '~1.3.3', href: '~1.3.3' }
+17 verbose addNamed [ 'coffee-script', '~1.3.3' ]
+18 verbose addNamed [ null, '>=1.3.3- <1.4.0-' ]
+19 verbose cache add [ 'cheerio@~0.10.1', null ]
+20 silly cache add name=undefined spec="cheerio@~0.10.1" args=["cheerio@~0.10.1",null]
+21 verbose parsed url { pathname: 'cheerio@~0.10.1',
+21 verbose parsed url   path: 'cheerio@~0.10.1',
+21 verbose parsed url   href: 'cheerio@~0.10.1' }
+22 silly cache add name="cheerio" spec="~0.10.1" args=["cheerio","~0.10.1"]
+23 verbose parsed url { pathname: '~0.10.1', path: '~0.10.1', href: '~0.10.1' }
+24 verbose addNamed [ 'cheerio', '~0.10.1' ]
+25 verbose addNamed [ null, '>=0.10.1- <0.11.0-' ]
+26 verbose cache add [ 'readthis@~0.0.3', null ]
+27 silly cache add name=undefined spec="readthis@~0.0.3" args=["readthis@~0.0.3",null]
+28 verbose parsed url { pathname: 'readthis@~0.0.3',
+28 verbose parsed url   path: 'readthis@~0.0.3',
+28 verbose parsed url   href: 'readthis@~0.0.3' }
+29 silly cache add name="readthis" spec="~0.0.3" args=["readthis","~0.0.3"]
+30 verbose parsed url { pathname: '~0.0.3', path: '~0.0.3', href: '~0.0.3' }
+31 verbose addNamed [ 'readthis', '~0.0.3' ]
+32 verbose addNamed [ null, '>=0.0.3- <0.1.0-' ]
+33 verbose cache add [ 'ouija@https://github.com/quickredfox/ouija/tarball/master',
+33 verbose cache add   null ]
+34 silly cache add name=undefined spec="ouija@https://github.com/quickredfox/ouija/tarball/master" args=["ouija@https://github.com/quickredfox/ouija/tarball/master",null]
+35 verbose parsed url { pathname: 'ouija@https://github.com/quickredfox/ouija/tarball/master',
+35 verbose parsed url   path: 'ouija@https://github.com/quickredfox/ouija/tarball/master',
+35 verbose parsed url   href: 'ouija@https://github.com/quickredfox/ouija/tarball/master' }
+36 silly cache add name="ouija" spec="https://github.com/quickredfox/ouija/tarball/master" args=["ouija","https://github.com/quickredfox/ouija/tarball/master"]
+37 verbose parsed url { protocol: 'https:',
+37 verbose parsed url   slashes: true,
+37 verbose parsed url   host: 'github.com',
+37 verbose parsed url   hostname: 'github.com',
+37 verbose parsed url   href: 'https://github.com/quickredfox/ouija/tarball/master',
+37 verbose parsed url   pathname: '/quickredfox/ouija/tarball/master',
+37 verbose parsed url   path: '/quickredfox/ouija/tarball/master' }
+38 silly lockFile a7c32646-cheerio-0-10-1 cheerio@~0.10.1
+39 verbose lock cheerio@~0.10.1 /Users/quickredfox/.npm/a7c32646-cheerio-0-10-1.lock
+40 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+41 verbose lock coffee-script@~1.3.3 /Users/quickredfox/.npm/f72bb580-coffee-script-1-3-3.lock
+42 silly addNameRange { name: 'cheerio', range: '>=0.10.1- <0.11.0-', hasData: false }
+43 silly addNameRange { name: 'coffee-script',
+43 silly addNameRange   range: '>=1.3.3- <1.4.0-',
+43 silly addNameRange   hasData: false }
+44 silly lockFile 5ee0d46e-readthis-0-0-3 readthis@~0.0.3
+45 verbose lock readthis@~0.0.3 /Users/quickredfox/.npm/5ee0d46e-readthis-0-0-3.lock
+46 silly lockFile 226e56bf-quickredfox-ouija-tarball-master https://github.com/quickredfox/ouija/tarball/master
+47 verbose lock https://github.com/quickredfox/ouija/tarball/master /Users/quickredfox/.npm/226e56bf-quickredfox-ouija-tarball-master.lock
+48 silly addNameRange { name: 'readthis', range: '>=0.0.3- <0.1.0-', hasData: false }
+49 verbose addRemoteTarball [ 'https://github.com/quickredfox/ouija/tarball/master', null ]
+50 verbose url raw coffee-script
+51 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+52 verbose url resolved https://registry.npmjs.org/coffee-script
+53 info trying registry request attempt 1 at 16:16:40
+54 verbose etag "ESZQCOM8YM1Y9HYG857TA69QC"
+55 http GET https://registry.npmjs.org/coffee-script
+56 info retry fetch attempt 1 at 16:16:40
+57 verbose fetch to= /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/tmp.tgz
+58 verbose url raw readthis
+59 verbose url resolving [ 'https://registry.npmjs.org/', './readthis' ]
+60 verbose url resolved https://registry.npmjs.org/readthis
+61 info trying registry request attempt 1 at 16:16:40
+62 verbose etag "EOP24TI4XIGYUWBF1Y8J790X1"
+63 http GET https://registry.npmjs.org/readthis
+64 verbose url raw cheerio
+65 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio' ]
+66 verbose url resolved https://registry.npmjs.org/cheerio
+67 info trying registry request attempt 1 at 16:16:40
+68 verbose etag "7937FFOWKIJPVDTUBVPCNWDGR"
+69 http GET https://registry.npmjs.org/cheerio
+70 http GET https://github.com/quickredfox/ouija/tarball/master
+71 http 304 https://registry.npmjs.org/cheerio
+72 silly registry.get cb [ 304,
+72 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+72 silly registry.get     etag: '"7937FFOWKIJPVDTUBVPCNWDGR"',
+72 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:39 GMT',
+72 silly registry.get     'content-length': '0' } ]
+73 verbose etag cheerio from cache
+74 silly addNameRange number 2 { name: 'cheerio', range: '>=0.10.1- <0.11.0-', hasData: true }
+75 silly addNameRange versions [ 'cheerio',
+75 silly addNameRange   [ '0.0.1',
+75 silly addNameRange     '0.0.2',
+75 silly addNameRange     '0.0.3',
+75 silly addNameRange     '0.0.4',
+75 silly addNameRange     '0.1.1',
+75 silly addNameRange     '0.1.2',
+75 silly addNameRange     '0.1.3',
+75 silly addNameRange     '0.1.4',
+75 silly addNameRange     '0.1.5',
+75 silly addNameRange     '0.2.0',
+75 silly addNameRange     '0.2.1',
+75 silly addNameRange     '0.2.2',
+75 silly addNameRange     '0.3.0',
+75 silly addNameRange     '0.3.1',
+75 silly addNameRange     '0.3.2',
+75 silly addNameRange     '0.4.0',
+75 silly addNameRange     '0.4.1',
+75 silly addNameRange     '0.4.2',
+75 silly addNameRange     '0.5.0',
+75 silly addNameRange     '0.5.1',
+75 silly addNameRange     '0.5.2',
+75 silly addNameRange     '0.6.0',
+75 silly addNameRange     '0.6.1',
+75 silly addNameRange     '0.6.2',
+75 silly addNameRange     '0.7.0',
+75 silly addNameRange     '0.8.0',
+75 silly addNameRange     '0.8.1',
+75 silly addNameRange     '0.8.2',
+75 silly addNameRange     '0.8.3',
+75 silly addNameRange     '0.9.0',
+75 silly addNameRange     '0.9.1',
+75 silly addNameRange     '0.9.2',
+75 silly addNameRange     '0.10.0',
+75 silly addNameRange     '0.10.1' ] ]
+76 verbose addNamed [ 'cheerio', '0.10.1' ]
+77 verbose addNamed [ '0.10.1', '0.10.1' ]
+78 silly lockFile dc335101-cheerio-0-10-1 cheerio@0.10.1
+79 verbose lock cheerio@0.10.1 /Users/quickredfox/.npm/dc335101-cheerio-0-10-1.lock
+80 verbose read json /Users/quickredfox/.npm/cheerio/0.10.1/package/package.json
+81 silly lockFile dc335101-cheerio-0-10-1 cheerio@0.10.1
+82 silly lockFile a7c32646-cheerio-0-10-1 cheerio@~0.10.1
+83 http 304 https://registry.npmjs.org/coffee-script
+84 silly registry.get cb [ 304,
+84 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+84 silly registry.get     etag: '"ESZQCOM8YM1Y9HYG857TA69QC"',
+84 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:39 GMT',
+84 silly registry.get     'content-length': '0' } ]
+85 verbose etag coffee-script from cache
+86 silly addNameRange number 2 { name: 'coffee-script',
+86 silly addNameRange   range: '>=1.3.3- <1.4.0-',
+86 silly addNameRange   hasData: true }
+87 silly addNameRange versions [ 'coffee-script',
+87 silly addNameRange   [ '0.7.0',
+87 silly addNameRange     '0.7.1',
+87 silly addNameRange     '0.7.2',
+87 silly addNameRange     '0.9.0',
+87 silly addNameRange     '0.9.1',
+87 silly addNameRange     '0.9.2',
+87 silly addNameRange     '0.9.3',
+87 silly addNameRange     '0.9.4',
+87 silly addNameRange     '0.9.5',
+87 silly addNameRange     '0.9.6',
+87 silly addNameRange     '1.0.0',
+87 silly addNameRange     '1.0.1',
+87 silly addNameRange     '1.1.0',
+87 silly addNameRange     '1.1.1',
+87 silly addNameRange     '1.1.2',
+87 silly addNameRange     '1.1.3',
+87 silly addNameRange     '1.2.0',
+87 silly addNameRange     '1.3.0',
+87 silly addNameRange     '1.3.1',
+87 silly addNameRange     '1.3.2',
+87 silly addNameRange     '1.3.3',
+87 silly addNameRange     '1.4.0' ] ]
+88 verbose addNamed [ 'coffee-script', '1.3.3' ]
+89 verbose addNamed [ '1.3.3', '1.3.3' ]
+90 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+91 verbose lock coffee-script@1.3.3 /Users/quickredfox/.npm/022c8436-coffee-script-1-3-3.lock
+92 verbose read json /Users/quickredfox/.npm/coffee-script/1.3.3/package/package.json
+93 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+94 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+95 http 304 https://registry.npmjs.org/readthis
+96 silly registry.get cb [ 304,
+96 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+96 silly registry.get     etag: '"EOP24TI4XIGYUWBF1Y8J790X1"',
+96 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:39 GMT',
+96 silly registry.get     'content-length': '0' } ]
+97 verbose etag readthis from cache
+98 silly addNameRange number 2 { name: 'readthis', range: '>=0.0.3- <0.1.0-', hasData: true }
+99 silly addNameRange versions [ 'readthis', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+100 verbose addNamed [ 'readthis', '0.0.3' ]
+101 verbose addNamed [ '0.0.3', '0.0.3' ]
+102 silly lockFile a7b61e86-readthis-0-0-3 readthis@0.0.3
+103 verbose lock readthis@0.0.3 /Users/quickredfox/.npm/a7b61e86-readthis-0-0-3.lock
+104 verbose read json /Users/quickredfox/.npm/readthis/0.0.3/package/package.json
+105 silly lockFile a7b61e86-readthis-0-0-3 readthis@0.0.3
+106 silly lockFile 5ee0d46e-readthis-0-0-3 readthis@~0.0.3
+107 http 200 https://github.com/quickredfox/ouija/tarball/master
+108 verbose tar unpack /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/tmp.tgz
+109 silly lockFile c18593a2-0656-0-23172708810307086-package /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package
+110 verbose lock /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package /Users/quickredfox/.npm/c18593a2-0656-0-23172708810307086-package.lock
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry
+113 silly gunzTarPerm modified mode [ '', 509, 493 ]
+114 silly gunzTarPerm extractEntry Makefile
+115 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+116 silly gunzTarPerm extractEntry Readme.md
+117 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+118 silly gunzTarPerm extractEntry index.js
+119 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+120 silly gunzTarPerm extractEntry invoke.coffee
+121 silly gunzTarPerm modified mode [ 'invoke.coffee', 436, 420 ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+124 silly gunzTarPerm extractEntry spirits/
+125 silly gunzTarPerm modified mode [ 'spirits/', 509, 493 ]
+126 silly gunzTarPerm extractEntry spirits/html.phantom.coffee
+127 silly gunzTarPerm modified mode [ 'spirits/html.phantom.coffee', 436, 420 ]
+128 silly gunzTarPerm extractEntry spirits/pre.phantom.coffee
+129 silly gunzTarPerm modified mode [ 'spirits/pre.phantom.coffee', 436, 420 ]
+130 silly gunzTarPerm extractEntry spirits/screenshot.phantom.coffee
+131 silly gunzTarPerm modified mode [ 'spirits/screenshot.phantom.coffee', 436, 420 ]
+132 silly gunzTarPerm extractEntry spirits/text.phantom.coffee
+133 silly gunzTarPerm modified mode [ 'spirits/text.phantom.coffee', 436, 420 ]
+134 verbose read json /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package/package.json
+135 silly lockFile c18593a2-0656-0-23172708810307086-package /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package
+136 verbose from cache /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package/package.json
+137 verbose tar pack [ '/Users/quickredfox/.npm/ouija/0.0.0/package.tgz',
+137 verbose tar pack   '/var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package' ]
+138 verbose tarball /Users/quickredfox/.npm/ouija/0.0.0/package.tgz
+139 verbose folder /var/folders/f2/jxcgndmx6zs_49mzg1r_k05r0000gn/T/npm-9402/1351109800656-0.23172708810307086/package
+140 silly lockFile a4a81901-dfox-npm-ouija-0-0-0-package-tgz /Users/quickredfox/.npm/ouija/0.0.0/package.tgz
+141 verbose lock /Users/quickredfox/.npm/ouija/0.0.0/package.tgz /Users/quickredfox/.npm/a4a81901-dfox-npm-ouija-0-0-0-package-tgz.lock
+142 silly lockFile a4a81901-dfox-npm-ouija-0-0-0-package-tgz /Users/quickredfox/.npm/ouija/0.0.0/package.tgz
+143 silly lockFile 417c996a-ckredfox-npm-ouija-0-0-0-package /Users/quickredfox/.npm/ouija/0.0.0/package
+144 verbose lock /Users/quickredfox/.npm/ouija/0.0.0/package /Users/quickredfox/.npm/417c996a-ckredfox-npm-ouija-0-0-0-package.lock
+145 silly lockFile 417c996a-ckredfox-npm-ouija-0-0-0-package /Users/quickredfox/.npm/ouija/0.0.0/package
+146 verbose tar unpack /Users/quickredfox/.npm/ouija/0.0.0/package.tgz
+147 silly lockFile 417c996a-ckredfox-npm-ouija-0-0-0-package /Users/quickredfox/.npm/ouija/0.0.0/package
+148 verbose lock /Users/quickredfox/.npm/ouija/0.0.0/package /Users/quickredfox/.npm/417c996a-ckredfox-npm-ouija-0-0-0-package.lock
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm extractEntry index.js
+152 silly gunzTarPerm extractEntry invoke.coffee
+153 silly gunzTarPerm extractEntry Makefile
+154 silly gunzTarPerm extractEntry Readme.md
+155 silly gunzTarPerm extractEntry spirits/html.phantom.coffee
+156 silly gunzTarPerm extractEntry spirits/pre.phantom.coffee
+157 silly gunzTarPerm extractEntry spirits/screenshot.phantom.coffee
+158 silly gunzTarPerm extractEntry spirits/text.phantom.coffee
+159 verbose read json /Users/quickredfox/.npm/ouija/0.0.0/package/package.json
+160 silly lockFile 417c996a-ckredfox-npm-ouija-0-0-0-package /Users/quickredfox/.npm/ouija/0.0.0/package
+161 silly shasum updated bytes 2219
+162 info shasum f7d94bd5178e2f4c56e1efc266e15197b396146f
+162 info shasum /Users/quickredfox/.npm/ouija/0.0.0/package.tgz
+163 verbose from cache /Users/quickredfox/.npm/ouija/0.0.0/package/package.json
+164 verbose chmod /Users/quickredfox/.npm/ouija/0.0.0/package.tgz 644
+165 verbose chown /Users/quickredfox/.npm/ouija/0.0.0/package.tgz [ 501, 20 ]
+166 silly lockFile 226e56bf-quickredfox-ouija-tarball-master https://github.com/quickredfox/ouija/tarball/master
+167 silly resolved [ { author:
+167 silly resolved      { name: 'Matt Mueller',
+167 silly resolved        email: 'mattmuelle@gmail.com',
+167 silly resolved        url: 'mattmueller.me' },
+167 silly resolved     name: 'cheerio',
+167 silly resolved     description: 'Tiny, fast, and elegant implementation of core jQuery designed specifically for the server',
+167 silly resolved     keywords: [ 'htmlparser', 'jquery', 'selector', 'scraper' ],
+167 silly resolved     version: '0.10.1',
+167 silly resolved     repository:
+167 silly resolved      { type: 'git',
+167 silly resolved        url: 'git://github.com/MatthewMueller/cheerio.git' },
+167 silly resolved     main: './index.js',
+167 silly resolved     engines: { node: '>= 0.6' },
+167 silly resolved     dependencies:
+167 silly resolved      { 'cheerio-select': '*',
+167 silly resolved        htmlparser2: '2.x',
+167 silly resolved        underscore: '*',
+167 silly resolved        entities: '0.x' },
+167 silly resolved     devDependencies: { mocha: '*', 'expect.js': '*' },
+167 silly resolved     scripts: { test: 'make test' },
+167 silly resolved     readme: '# cheerio [![Build Status](https://secure.travis-ci.org/MatthewMueller/cheerio.png?branch=master)](http://travis-ci.org/MatthewMueller/cheerio)\n\nFast, flexible, and lean implementation of core jQuery designed specifically for the server.\n\n## Introduction\nTeach your server HTML.\n\n```js\nvar cheerio = require(\'cheerio\'),\n    $ = cheerio.load(\'<h2 class = "title">Hello world</h2>\');\n\n$(\'h2.title\').text(\'Hello there!\');\n$(\'h2\').addClass(\'welcome\');\n\n$.html();\n//=> <h2 class = "title welcome">Hello there!</h2>\n```\n\n## Installation\n`npm install cheerio`\n\n... or to install the package globally:\n\n`npm install -g cheerio`\n\n## Features\n__&#10084; Familiar syntax:__\nCheerio implements a subset of core jQuery. Cheerio removes all the DOM inconsistencies and browser cruft from the jQuery library, revealing its truly gorgeous API.\n\n__&#991; Blazingly fast:__\nCheerio works with a very simple, consistent DOM model. As a result parsing, manipulating, and rendering are incredibly efficient. Preliminary end-to-end benchmarks suggest that cheerio is about __8x__ faster than JSDOM.\n\n__&#10049; Insanely flexible:__\nCheerio wraps around @FB55\'s forgiving htmlparser. Cheerio can parse nearly any HTML or XML document.\n\n## What about JSDOM?\nI wrote cheerio because I found myself increasingly frustrated with JSDOM. For me, there were three main sticking points that I kept running into again and again:\n\n__&#8226; JSDOM\'s built-in parser is too strict:__\n  JSDOM\'s bundled HTML parser cannot handle many popular sites out there today.\n\n__&#8226; JSDOM is too slow:__\nParsing big websites with JSDOM has a noticeable delay.\n\n__&#8226; JSDOM feels too heavy:__\nThe goal of JSDOM is to provide an identical DOM environment as what we see in the browser. I never really needed all this, I just wanted a simple, familiar way to do HTML manipulation.\n\n## When I would use JSDOM\n\nCheerio will not solve all your problems. I would still use JSDOM if I needed to work in a browser-like environment on the server, particularly if I wanted to automate functional tests.\n\n## API\n\n### Markup example we\'ll be using:\n\n```html\n<ul id="fruits">\n  <li class="apple">Apple</li>\n  <li class="orange">Orange</li>\n  <li class="pear">Pear</li>\n</ul>\n```\n\nThis is the HTML markup we will be using in all of the API examples.\n\n### Loading\nFirst you need to load in the HTML. This step in jQuery is implicit, since jQuery operates on the one, baked-in DOM. With Cheerio, we need to pass in the HTML document.\n\nThis is the _preferred_ method:\n\n```js\nvar cheerio = require(\'cheerio\'),\n    $ = cheerio.load(\'<ul id = "fruits">...</ul>\');\n```\n\nOptionally, you can also load in the HTML by passing the string as the context:\n\n```js\n$ = require(\'cheerio\');\n$(\'ul\', \'<ul id = "fruits">...</ul>\');\n```\n\nOr as the root:\n\n```js\n$ = require(\'cheerio\');\n$(\'li\', \'ul\', \'<ul id = "fruits">...</ul>\');\n```\n\nYou can also pass an extra object to `.load()` if you need to modify any\nof the default parsing options:\n\n```js\n$ = cheerio.load(\'<ul id = "fruits">...</ul>\', {\n    ignoreWhitespace: true,\n    xmlMode: true\n});\n```\n\nThese parsing options are taken directly from htmlparser, therefore any options that can be used in htmlparser\nare valid in cheerio as well. The default options are:\n\n```js\n{\n    ignoreWhitespace: false,\n    xmlMode: false,\n    lowerCaseTags: false\n}\n```\n\nFor a list of options and their effects, see [this](https://github.com/FB55/node-htmlparser/wiki/DOMHandler) and\n[this](https://github.com/FB55/node-htmlparser/wiki/Parser-options).\n\n### Selectors\n\nCheerio\'s selector implementation is nearly identical to jQuery\'s, so the API is very similar.\n\n#### $( selector, [context], [root] )\n`selector` searches within the `context` scope which searches within the `root` scope. `selector` and `context` can be an string expression, DOM Element, array of DOM elements, or cheerio object. `root` is typically the HTML document string.\n\nThis selector method is the starting point for traversing and manipulating the document. Like jQuery, it\'s the primary method for selecting elements in the document, but unlike jQuery it\'s built on top of the CSSSelect library, which implements most of the Sizzle selectors.\n\n```js\n$(\'.apple\', \'#fruits\').text()\n//=> Apple\n\n$(\'ul .pear\').attr(\'class\')\n//=> pear\n\n$(\'li[class=orange]\').html()\n//=> <li class = "orange">Orange</li>\n```\n\n### Attributes\nMethods for getting and modifying attributes.\n\n#### .attr( name, value )\nMethod for getting and setting attributes. Gets the attribute value for only the first element in the matched set. If you set an attribute\'s value to `null`, you remove that attribute. You may also pass a `map` and `function` like jQuery.\n\n```js\n$(\'ul\').attr(\'id\')\n//=> fruits\n\n$(\'.apple\').attr(\'id\', \'favorite\').html()\n//=> <li class = "apple" id = "favorite">Apple</li>\n```\n\n> See http://api.jquery.com/attr/ for more information\n\n#### .removeAttr( name )\nMethod for removing attributes by `name`.\n\n```js\n$(\'.pear\').removeAttr(\'class\').html()\n//=> <li>Pear</li>\n```\n\n#### .hasClass( className )\nCheck to see if *any* of the matched elements have the given `className`.\n\n```js\n$(\'.pear\').hasClass(\'pear\')\n//=> true\n\n$(\'apple\').hasClass(\'fruit\')\n//=> false\n\n$(\'li\').hasClass(\'pear\')\n//=> true\n```\n\n#### .addClass( className )\nAdds class(es) to all of the matched elements. Also accepts a `function` like jQuery.\n\n```js\n$(\'.pear\').addClass(\'fruit\').html()\n//=> <li class = "pear fruit">Pear</li>\n\n$(\'.apple\').addClass(\'fruit red\').html()\n//=> <li class = "apple fruit red">Apple</li>\n```\n\n> See http://api.jquery.com/addClass/ for more information.\n\n#### .removeClass( [className] )\nRemoves one or more space-separated classes from the selected elements. If no `className` is defined, all classes will be removed. Also accepts a `function` like jQuery.\n\n```js\n$(\'.pear\').removeClass(\'pear\').html()\n//=> <li class = "">Pear</li>\n\n$(\'.apple\').addClass(\'red\').removeClass().html()\n//=> <li class = "">Apple</li>\n```\n\n> See http://api.jquery.com/removeClass/ for more information.\n\n\n### Traversing\n\n#### .find(selector)\nGet a set of descendants filtered by `selector` of each element in the current set of matched elements.\n\n```js\n$(\'#fruits\').find(\'li\').size()\n//=> 3\n```\n\n#### .parent()\nGets the parent of the first selected element.\n\n```js\n$(\'.pear\').parent().attr(\'id\')\n//=> fruits\n```\n\n#### .next()\nGets the next sibling of the first selected element.\n\n```js\n$(\'.apple\').next().hasClass(\'orange\')\n//=> true\n```\n\n#### .prev()\nGets the previous sibling of the first selected element.\n\n```js\n$(\'.orange\').prev().hasClass(\'apple\')\n//=> true\n```\n\n#### .siblings()\nGets the first selected element\'s siblings, excluding itself.\n\n```js\n$(\'.pear\').siblings().length\n//=> 2\n```\n\n#### .children( selector )\nGets the children of the first selected element.\n\n```js\n$(\'#fruits\').children().length\n//=> 3\n\n$(\'#fruits\').children(\'.pear\').text()\n//=> Pear\n```\n\n#### .each( function(index, element) )\nIterates over a cheerio object, executing a function for each matched element. When the callback is fired, the function is fired in the context of the DOM element, so `this` refers to the current element, which is equivalent to the function parameter `element`.\n\n```js\nvar fruits = [];\n\n$(\'li\').each(function(i, elem) {\n  fruits[i] = $(this).text();\n});\n\nfruits.join(\', \');\n//=> Apple, Orange, Pear\n```\n\n#### .map( function(index, element) )\nIterates over a cheerio object, executing a function for each selected element. Map will return an `array` of return values from each of the functions it iterated over. The function is fired in the context of the DOM element, so `this` refers to the current element, which is equivalent to the function parameter `element`.\n\n```js\n$(\'li\').map(function(i, el) {\n  // this === el\n  return $(this).attr(\'class\');\n}).join(\', \');\n//=> apple, orange, pear\n```\n\n#### .first()\nWill select the first element of a cheerio object\n\n```js\n$(\'#fruits\').children().first().text()\n//=> Apple\n```\n\n#### .last()\nWill select the last element of a cheerio object\n\n```js\n$(\'#fruits\').children().last().text()\n//=> Pear\n```\n\n#### .eq( i )\nReduce the set of matched elements to the one at the specified index. Use `.eq(-i)` to count backwards from the last selected element.\n\n```js\n$(\'li\').eq(0).text()\n//=> Apple\n\n$(\'li\').eq(-1).text()\n//=> Pear\n```\n\n### Manipulation\nMethods for modifying the DOM structure.\n\n#### .append( content, [content, ...] )\nInserts content as the *last* child of each of the selected elements.\n\n```js\n$(\'ul\').append(\'<li class = "plum">Plum</li>\')\n$.html()\n//=>  <ul id = "fruits">\n//      <li class = "apple">Apple</li>\n//      <li class = "orange">Orange</li>\n//      <li class = "pear">Pear</li>\n//      <li class = "plum">Plum</li>\n//    </ul>\n```\n\n#### .prepend( content, [content, ...] )\nInserts content as the *first* child of each of the selected elements.\n\n```js\n$(\'ul\').prepend(\'<li class = "plum">Plum</li>\')\n$.html()\n//=>  <ul id = "fruits">\n//      <li class = "plum">Plum</li>\n//      <li class = "apple">Apple</li>\n//      <li class = "orange">Orange</li>\n//      <li class = "pear">Pear</li>\n//    </ul>\n```\n\n#### .after( content, [content, ...] )\nInsert content next to each element in the set of matched elements.\n\n```js\n$(\'.apple\').after(\'<li class = "plum">Plum</li>\')\n$.html()\n//=>  <ul id = "fruits">\n//      <li class = "apple">Apple</li>\n//      <li class = "plum">Plum</li>\n//      <li class = "orange">Orange</li>\n//      <li class = "pear">Pear</li>\n//    </ul>\n```\n\n#### .before( content, [content, ...] )\nInsert content previous to each element in the set of matched elements.\n\n```js\n$(\'.apple\').before(\'<li class = "plum">Plum</li>\')\n$.html()\n//=>  <ul id = "fruits">\n//      <li class = "plum">Plum</li>\n//      <li class = "apple">Apple</li>\n//      <li class = "orange">Orange</li>\n//      <li class = "pear">Pear</li>\n//    </ul>\n```\n\n#### .remove( [selector] )\nRemoves the set of matched elements from the DOM and all their children. `selector` filters the set of matched elements to be removed.\n\n```js\n$(\'.pear\').remove()\n$.html()\n//=>  <ul id = "fruits">\n//      <li class = "apple">Apple</li>\n//      <li class = "orange">Orange</li>\n//    </ul>\n```\n\n#### .replaceWith( content )\nReplaces matched elements with `content`.\n\n```js\nvar plum = $(\'<li class = "plum">Plum</li>\')\n$(\'.pear\').replaceWith(plum)\n$.html()\n//=> <ul id = "fruits">\n//     <li class = "apple">Apple</li>\n//     <li class = "orange">Orange</li>\n//     <li class = "plum">Plum</li>\n//   </ul>\n```\n\n#### .empty()\nEmpties an element, removing all it\'s children.\n\n```js\n$(\'ul\').empty()\n$.html()\n//=>  <ul id = "fruits"></ul>\n```\n\n#### .html( [htmlString] )\nGets an html content string from the first selected element. If `htmlString` is specified, each selected element\'s content is replaced by the new content.\n\n```js\n$(\'.orange\').html()\n//=> <li class = "orange">Orange</li>\n\n$(\'#fruits\').html(\'<li class = "mango">Mango</li>\').html()\n//=>  <ul id="fruits">\n//      <li class="mango">Mango</li>\n//    </ul>\n```\n\n#### .text( [textString] )\nGet the combined text contents of each element in the set of matched elements, including their descendants.. If `textString` is specified, each selected element\'s content is replaced by the new text content.\n\n```js\n$(\'.orange\').text()\n//=> Orange\n\n$(\'ul\').text()\n//=>  Apple\n//    Orange\n//    Pear\n```\n\n### Rendering\nWhen you\'re ready to render the document, you can use `html` utility function:\n\n```js\n$.html()\n//=>  <ul id = "fruits">\n//      <li class = "apple">Apple</li>\n//      <li class = "orange">Orange</li>\n//      <li class = "pear">Pear</li>\n//    </ul>\n```\n\nIf you want to render just a piece of the document you can use selectors:\n\n```js\n$(\'.pear\').html()\n//=> <li class = "pear">Pear</li>\n```\n\n### Miscellaneous\nDOM element methods that don\'t fit anywhere else\n\n#### .toArray()\nRetrieve all the DOM elements contained in the jQuery set, as an array.\n\n```js\n$(\'li\').toArray()\n//=> [ {...}, {...}, {...} ]\n```\n\n#### .clone() ####\nClone the cheerio object.\n\n```js\nvar moreFruit = $(\'#fruits\').clone()\n```\n\n### Utilities\n\n#### $.root\n\nSometimes you need to work with the top-level root element. To query it, you can use `$.root()`.\n\n```js\n$.root().append(\'<ul id="vegetables"></ul>\').html();\n//=> <ul id="fruits">...</ul><ul id="vegetables"></ul>\n```\n\n#### $.dom()\nGet the raw DOM of the parsed HTML document.\n\n```js\n$.dom()\n//=> [{\n//    type: \'tag\',\n//    name: \'ul\',\n//    attribs: { id: \'fruits\' },\n//    children:\n//     [ [Object],\n//       [Object],\n//       [Object],\n//       [Object],\n//       [Object],\n//       [Object],\n//       [Object] ],\n//    parent: null,\n//    prev: null,\n//    next: null\n//   }]\n```\n\n#### $.isArray( array )\nChecks to see the passed argument is an array.\n\n```js\n$.isArray( $.dom() )\n//=> true\n```\n\n#### $.inArray( elem, arr )\nChecks to see if the element is in the array\n\n#### $.makeArray( obj )\nTurns an array-like object (like $) into a native array.\n\n#### $.each( obj, function(index, elem) )\nGeneric iterator function.\n\n#### $.merge( one, two )\nMerge the contents of two arrays together into the first array.\n\n## Screencasts\n\nhttp://vimeo.com/31950192\n\n> This video tutorial is a follow-up to Nettut\'s "How to Scrape Web Pages with Node.js and jQuery", using cheerio instead of JSDOM + jQuery. This video shows how easy it is to use cheerio and how much faster cheerio is than JSDOM + jQuery.\n\n## Test Coverage\n\nCheerio has high-test coverage, you can view the report [here](https://s3.amazonaws.com/MattMueller/Coverage/cheerio.html).\n\n## Testing\n\nTo run the test suite, download the repository, then within the cheerio directory, run:\n\n```shell\nnpm install .\nmake test\n```\n\nThis will download the development packages and run the test suite.\n\n## Contributors\n\nThese are some of the contributors that have made cheerio possible:\n\n```\nproject  : cheerio\nrepo age : 12 months ago\ncommits  : 369\nactive   : 99 days\nfiles    : 26\nauthors  : \n  245 Matt Mueller            66.4%\n   68 Matthew Mueller         18.4%\n   24 David Chambers          6.5%\n   15 Siddharth Mahendraker   4.1%\n    4 ironchefpython          1.1%\n    3 Jos Shepherd            0.8%\n    2 alexbardas              0.5%\n    2 Rob Ashton              0.5%\n    1 mattym                  0.3%\n    1 Chris O\'Hara            0.3%\n    1 Rob "Hurricane" Ashton  0.3%\n    1 Sindre Sorhus           0.3%\n    1 Wayne Larsen            0.3%\n    1 Ben Atkin               0.3%\n```\n\n## Special Thanks\n\nThis library stands on the shoulders of some incredible developers. A special thanks to:\n\n__&#8226; @FB55 for node-htmlparser2 & CSSSelect:__\nFelix has a knack for writing speedy parsing engines. He completely re-wrote both @tautologistic\'s `node-htmlparser` and @harry\'s `node-soupselect` from the ground up, making both of them much faster and more flexible. Cheerio would not be possible without his foundational work\n\n__&#8226; @jQuery team for jQuery:__\nThe core API is the best of it\'s class and despite dealing with all the browser inconsistencies the code base is extremely clean and easy to follow. Much of cheerio\'s implementation and documentation is from jQuery. Thanks guys.\n\n__&#8226; @visionmedia:__\nThe style, the structure, the open-source"-ness" of this library comes from studying TJ\'s style and using many of his libraries. This dude consistently pumps out high-quality libraries and has always been more than willing to help or answer questions. You rock TJ.\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2012 Matt Mueller &lt;mattmuelle@gmail.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+167 silly resolved     _id: 'cheerio@0.10.1',
+167 silly resolved     _from: 'cheerio@~0.10.1' },
+167 silly resolved   { name: 'coffee-script',
+167 silly resolved     description: 'Unfancy JavaScript',
+167 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+167 silly resolved     author: { name: 'Jeremy Ashkenas' },
+167 silly resolved     version: '1.3.3',
+167 silly resolved     licenses: [ [Object] ],
+167 silly resolved     engines: { node: '>=0.4.0' },
+167 silly resolved     directories: { lib: './lib/coffee-script' },
+167 silly resolved     main: './lib/coffee-script/coffee-script',
+167 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+167 silly resolved     homepage: 'http://coffeescript.org',
+167 silly resolved     bugs: 'https://github.com/jashkenas/coffee-script/issues',
+167 silly resolved     repository:
+167 silly resolved      { type: 'git',
+167 silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+167 silly resolved     devDependencies: { 'uglify-js': '>=1.0.0', jison: '>=0.2.0' },
+167 silly resolved     readme: '\n            {\n         }   }   {\n        {   {  }  }\n         }   }{  {\n        {  }{  }  }                    _____       __  __\n       ( }{ }{  { )                   / ____|     / _|/ _|\n     .- { { }  { }} -.               | |     ___ | |_| |_ ___  ___\n    (  ( } { } { } }  )              | |    / _ \\|  _|  _/ _ \\/ _ \\\n    |`-..________ ..-\'|              | |___| (_) | | | ||  __/  __/\n    |                 |               \\_____\\___/|_| |_| \\___|\\___|\n    |                 ;--.\n    |                (__  \\            _____           _       _\n    |                 | )  )          / ____|         (_)     | |\n    |                 |/  /          | (___   ___ _ __ _ _ __ | |_\n    |                 (  /            \\___ \\ / __| \'__| | \'_ \\| __|\n    |                 |/              ____) | (__| |  | | |_) | |_\n    |                 |              |_____/ \\___|_|  |_| .__/ \\__|\n     `-.._________..-\'                                  | |\n                                                        |_|\n\n\n  CoffeeScript is a little language that compiles into JavaScript.\n\n  Install Node.js, and then the CoffeeScript compiler:\n  sudo bin/cake install\n\n  Or, if you have the Node Package Manager installed:\n  npm install -g coffee-script\n  (Leave off the -g if you don\'t wish to install globally.)\n\n  Execute a script:\n  coffee /path/to/script.coffee\n\n  Compile a script:\n  coffee -c /path/to/script.coffee\n\n  For documentation, usage, and examples, see:\n  http://coffeescript.org/\n\n  To suggest a feature, report a bug, or general discussion:\n  http://github.com/jashkenas/coffee-script/issues/\n\n  If you\'d like to chat, drop by #coffeescript on Freenode IRC,\n  or on webchat.freenode.net.\n\n  The source repository:\n  git://github.com/jashkenas/coffee-script.git\n\n  All contributors are listed here:\n  http://github.com/jashkenas/coffee-script/contributors\n',
+167 silly resolved     _id: 'coffee-script@1.3.3',
+167 silly resolved     _from: 'coffee-script@~1.3.3' },
+167 silly resolved   { name: 'readthis',
+167 silly resolved     version: '0.0.3',
+167 silly resolved     description: 'readthis takes block comments in specified .coffee or .js file(s) and outputs them in one file or on stdtout, passing through all other files types. End of story. I use it to document code in  README.md-style free-form API docs.',
+167 silly resolved     main: './bin/readthis',
+167 silly resolved     scripts: { test: './test/readthis.coffee' },
+167 silly resolved     bin: { readthis: './bin/readthis.coffee' },
+167 silly resolved     repository:
+167 silly resolved      { type: 'git',
+167 silly resolved        url: 'https://github.com/quickredfox/node-readthis.git' },
+167 silly resolved     keywords:
+167 silly resolved      [ 'javascript',
+167 silly resolved        'coffeescript',
+167 silly resolved        'simple',
+167 silly resolved        'featureless',
+167 silly resolved        'documentation',
+167 silly resolved        'generator',
+167 silly resolved        'comments',
+167 silly resolved        'markdown' ],
+167 silly resolved     dependencies:
+167 silly resolved      { 'coffee-script': '~1.3.3',
+167 silly resolved        falafel: '~0.1.3',
+167 silly resolved        optimist: '~0.3.4' },
+167 silly resolved     author: { name: 'Francois Lafortune, @quickredfox' },
+167 silly resolved     license: 'BSD',
+167 silly resolved     readme: '# READTHIS\n\nHere\'s how it works: \n\n## Install\n\n    npm install -g readthis\n\n## Usage\n\nTo read a bunch of files to dump to stdout:\n\n    readthis ./some/glob/patterns/**.coffee anything.md ../bleh.js ~/code/somethingelse.js \n\nTo read a bunch of files to dump in one file:\n\n    readthis ./some/glob/patterns/**.coffee anything.md ../bleh.js ~/code/somethingelse.js -o README.md\n    \n## Hint\n\nIn all your .coffee\'s and .js\'es, leave yourself notes using inline comments, and use pure markdown to document your code in block comments.\n',
+167 silly resolved     _id: 'readthis@0.0.3',
+167 silly resolved     _from: 'readthis@~0.0.3' },
+167 silly resolved   { name: 'ouija',
+167 silly resolved     version: '0.0.0',
+167 silly resolved     description: 'Finely tuned phantomjs scraping utilities as a means to sanely use phantomjs in an already complex enough stack.',
+167 silly resolved     main: './index.js',
+167 silly resolved     scripts:
+167 silly resolved      { preinstall: 'which -s phantomjs',
+167 silly resolved        test: 'echo "Error: no test specified" && exit 1' },
+167 silly resolved     repository: '',
+167 silly resolved     author: '',
+167 silly resolved     license: 'BSD',
+167 silly resolved     readme: 'OUIJA!\n======\n\nInvoke the spirits of the lingering phantoms in limbo. \n\n*note:* `.coffee` is phantom scripts, else package source.',
+167 silly resolved     _id: 'ouija@0.0.0',
+167 silly resolved     dist: { shasum: 'f7d94bd5178e2f4c56e1efc266e15197b396146f' },
+167 silly resolved     _from: 'ouija@https://github.com/quickredfox/ouija/tarball/master' } ]
+168 info install cheerio@0.10.1 into /Users/quickredfox/code/service-magic/clouseau-filters
+169 info install coffee-script@1.3.3 into /Users/quickredfox/code/service-magic/clouseau-filters
+170 info install readthis@0.0.3 into /Users/quickredfox/code/service-magic/clouseau-filters
+171 info install ouija@0.0.0 into /Users/quickredfox/code/service-magic/clouseau-filters
+172 info installOne cheerio@0.10.1
+173 info installOne coffee-script@1.3.3
+174 info installOne readthis@0.0.3
+175 info installOne ouija@0.0.0
+176 verbose from cache /Users/quickredfox/.npm/cheerio/0.10.1/package/package.json
+177 verbose from cache /Users/quickredfox/.npm/coffee-script/1.3.3/package/package.json
+178 verbose from cache /Users/quickredfox/.npm/readthis/0.0.3/package/package.json
+179 verbose from cache /Users/quickredfox/.npm/ouija/0.0.0/package/package.json
+180 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio unbuild
+181 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/package.json
+182 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script unbuild
+183 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script/package.json
+184 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis unbuild
+185 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/package.json
+186 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija unbuild
+187 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija/package.json
+188 verbose tar unpack /Users/quickredfox/.npm/cheerio/0.10.1/package.tgz
+189 verbose tar unpack /Users/quickredfox/.npm/coffee-script/1.3.3/package.tgz
+190 verbose tar unpack /Users/quickredfox/.npm/readthis/0.0.3/package.tgz
+191 verbose tar unpack /Users/quickredfox/.npm/ouija/0.0.0/package.tgz
+192 silly lockFile a86bdafc-eau-filters-node-modules-cheerio /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+193 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio /Users/quickredfox/.npm/a86bdafc-eau-filters-node-modules-cheerio.lock
+194 silly lockFile f467b31a-lters-node-modules-coffee-script /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script
+195 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script /Users/quickredfox/.npm/f467b31a-lters-node-modules-coffee-script.lock
+196 silly lockFile b17a7710-au-filters-node-modules-readthis /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis
+197 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis /Users/quickredfox/.npm/b17a7710-au-filters-node-modules-readthis.lock
+198 silly lockFile 6d53095d-useau-filters-node-modules-ouija /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija
+199 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija /Users/quickredfox/.npm/6d53095d-useau-filters-node-modules-ouija.lock
+200 silly gunzTarPerm modes [ '755', '644' ]
+201 silly gunzTarPerm modes [ '755', '644' ]
+202 silly gunzTarPerm modes [ '755', '644' ]
+203 silly gunzTarPerm modes [ '755', '644' ]
+204 silly gunzTarPerm extractEntry .npmignore
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry package.json
+207 silly gunzTarPerm extractEntry package.json
+208 silly gunzTarPerm extractEntry bin/
+209 silly gunzTarPerm extractEntry bin/cake
+210 silly gunzTarPerm extractEntry .npmignore
+211 silly gunzTarPerm extractEntry README.md
+212 silly gunzTarPerm extractEntry .npmignore
+213 silly gunzTarPerm extractEntry index.js
+214 silly gunzTarPerm extractEntry index.js
+215 silly gunzTarPerm extractEntry invoke.coffee
+216 silly gunzTarPerm extractEntry bin/coffee
+217 silly gunzTarPerm extractEntry CNAME
+218 silly gunzTarPerm extractEntry extras/
+219 silly gunzTarPerm extractEntry Makefile
+220 silly gunzTarPerm extractEntry Readme.md
+221 silly gunzTarPerm extractEntry bin/readthis.coffee
+222 silly gunzTarPerm extractEntry test/readthis.coffee
+223 silly gunzTarPerm extractEntry .travis.yml
+224 silly gunzTarPerm extractEntry benchmarks/htmlparser.js
+225 silly gunzTarPerm extractEntry spirits/html.phantom.coffee
+226 silly gunzTarPerm extractEntry extras/jsl.conf
+227 silly gunzTarPerm extractEntry lib/
+228 silly gunzTarPerm extractEntry spirits/pre.phantom.coffee
+229 silly gunzTarPerm extractEntry spirits/screenshot.phantom.coffee
+230 silly gunzTarPerm extractEntry History.md
+231 silly gunzTarPerm extractEntry lib/cheerio.js
+232 silly gunzTarPerm extractEntry lib/coffee-script/
+233 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+234 silly gunzTarPerm extractEntry spirits/text.phantom.coffee
+235 silly gunzTarPerm extractEntry lib/parse.js
+236 silly gunzTarPerm extractEntry lib/render.js
+237 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+238 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+239 silly gunzTarPerm extractEntry lib/static.js
+240 silly gunzTarPerm extractEntry lib/utils.js
+241 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+242 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+243 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+244 silly gunzTarPerm extractEntry lib/api/attributes.js
+245 silly gunzTarPerm extractEntry lib/api/manipulation.js
+246 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+247 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+248 silly gunzTarPerm extractEntry lib/api/traversing.js
+249 silly gunzTarPerm extractEntry Makefile
+250 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+251 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/package.json
+252 silly gunzTarPerm extractEntry Readme.md
+253 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+254 silly gunzTarPerm extractEntry test/api.attributes.js
+255 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+256 silly gunzTarPerm extractEntry test/api.manipulation.js
+257 silly gunzTarPerm extractEntry test/api.traversing.js
+258 silly gunzTarPerm extractEntry test/api.utils.js
+259 silly gunzTarPerm extractEntry test/cheerio.js
+260 silly gunzTarPerm extractEntry test/fixtures.js
+261 silly lockFile b17a7710-au-filters-node-modules-readthis /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis
+262 silly gunzTarPerm extractEntry test/parse.js
+263 silly gunzTarPerm extractEntry test/render.js
+264 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+265 info preinstall readthis@0.0.3
+266 silly gunzTarPerm extractEntry test/mocha.opts
+267 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+268 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+269 silly gunzTarPerm extractEntry LICENSE
+270 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/package.json
+271 silly gunzTarPerm extractEntry package.json
+272 silly gunzTarPerm extractEntry Rakefile
+273 silly gunzTarPerm extractEntry README
+274 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija/package.json
+275 silly lockFile 6d53095d-useau-filters-node-modules-ouija /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija
+276 info preinstall ouija@0.0.0
+277 verbose unsafe-perm in lifecycle true
+278 silly exec sh "-c" "which -s phantomjs"
+279 silly sh,-c,which -s phantomjs,/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija spawning
+280 verbose readDependencies using package.json deps
+281 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/package.json
+282 verbose readDependencies using package.json deps
+283 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija/package.json
+284 verbose cache add [ 'falafel@~0.1.3', null ]
+285 silly cache add name=undefined spec="falafel@~0.1.3" args=["falafel@~0.1.3",null]
+286 verbose parsed url { pathname: 'falafel@~0.1.3',
+286 verbose parsed url   path: 'falafel@~0.1.3',
+286 verbose parsed url   href: 'falafel@~0.1.3' }
+287 silly cache add name="falafel" spec="~0.1.3" args=["falafel","~0.1.3"]
+288 verbose parsed url { pathname: '~0.1.3', path: '~0.1.3', href: '~0.1.3' }
+289 verbose addNamed [ 'falafel', '~0.1.3' ]
+290 verbose addNamed [ null, '>=0.1.3- <0.2.0-' ]
+291 silly lockFile 47bd46f4-falafel-0-1-3 falafel@~0.1.3
+292 verbose lock falafel@~0.1.3 /Users/quickredfox/.npm/47bd46f4-falafel-0-1-3.lock
+293 verbose cache add [ 'optimist@~0.3.4', null ]
+294 silly cache add name=undefined spec="optimist@~0.3.4" args=["optimist@~0.3.4",null]
+295 verbose parsed url { pathname: 'optimist@~0.3.4',
+295 verbose parsed url   path: 'optimist@~0.3.4',
+295 verbose parsed url   href: 'optimist@~0.3.4' }
+296 silly cache add name="optimist" spec="~0.3.4" args=["optimist","~0.3.4"]
+297 verbose parsed url { pathname: '~0.3.4', path: '~0.3.4', href: '~0.3.4' }
+298 verbose addNamed [ 'optimist', '~0.3.4' ]
+299 verbose addNamed [ null, '>=0.3.4- <0.4.0-' ]
+300 silly lockFile 094c60bd-optimist-0-3-4 optimist@~0.3.4
+301 verbose lock optimist@~0.3.4 /Users/quickredfox/.npm/094c60bd-optimist-0-3-4.lock
+302 verbose readDependencies using package.json deps
+303 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija/package.json
+304 silly addNameRange { name: 'falafel', range: '>=0.1.3- <0.2.0-', hasData: false }
+305 silly addNameRange { name: 'optimist', range: '>=0.3.4- <0.4.0-', hasData: false }
+306 verbose url raw falafel
+307 verbose url resolving [ 'https://registry.npmjs.org/', './falafel' ]
+308 verbose url resolved https://registry.npmjs.org/falafel
+309 info trying registry request attempt 1 at 16:16:41
+310 verbose etag "4YLR645ZM62517ITDD4Q7RBMH"
+311 http GET https://registry.npmjs.org/falafel
+312 verbose url raw optimist
+313 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+314 verbose url resolved https://registry.npmjs.org/optimist
+315 info trying registry request attempt 1 at 16:16:41
+316 verbose etag "3T2VRAGARMNNMM78O3SHRX2OV"
+317 http GET https://registry.npmjs.org/optimist
+318 verbose readDependencies using package.json deps
+319 silly resolved []
+320 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija
+321 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija
+322 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/ouija/package.json
+323 verbose linkStuff [ false,
+323 verbose linkStuff   false,
+323 verbose linkStuff   false,
+323 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules' ]
+324 info linkStuff ouija@0.0.0
+325 verbose linkBins ouija@0.0.0
+326 verbose linkMans ouija@0.0.0
+327 verbose rebuildBundles ouija@0.0.0
+328 info install ouija@0.0.0
+329 info postinstall ouija@0.0.0
+330 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/package.json
+331 silly lockFile a86bdafc-eau-filters-node-modules-cheerio /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+332 info preinstall cheerio@0.10.1
+333 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/package.json
+334 verbose readDependencies using package.json deps
+335 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/package.json
+336 verbose readDependencies using package.json deps
+337 verbose cache add [ 'cheerio-select@*', null ]
+338 silly cache add name=undefined spec="cheerio-select@*" args=["cheerio-select@*",null]
+339 verbose parsed url { pathname: 'cheerio-select@*',
+339 verbose parsed url   path: 'cheerio-select@*',
+339 verbose parsed url   href: 'cheerio-select@*' }
+340 silly cache add name="cheerio-select" spec="*" args=["cheerio-select","*"]
+341 verbose parsed url { pathname: '*', path: '*', href: '*' }
+342 verbose addNamed [ 'cheerio-select', '*' ]
+343 verbose addNamed [ null, '' ]
+344 silly lockFile 5395b76d-cheerio-select cheerio-select@*
+345 verbose lock cheerio-select@* /Users/quickredfox/.npm/5395b76d-cheerio-select.lock
+346 verbose cache add [ 'htmlparser2@2.x', null ]
+347 silly cache add name=undefined spec="htmlparser2@2.x" args=["htmlparser2@2.x",null]
+348 verbose parsed url { pathname: 'htmlparser2@2.x',
+348 verbose parsed url   path: 'htmlparser2@2.x',
+348 verbose parsed url   href: 'htmlparser2@2.x' }
+349 silly cache add name="htmlparser2" spec="2.x" args=["htmlparser2","2.x"]
+350 verbose parsed url { pathname: '2.x', path: '2.x', href: '2.x' }
+351 verbose addNamed [ 'htmlparser2', '2.x' ]
+352 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+353 silly lockFile 650cc907-htmlparser2-2-x htmlparser2@2.x
+354 verbose lock htmlparser2@2.x /Users/quickredfox/.npm/650cc907-htmlparser2-2-x.lock
+355 silly addNameRange { name: 'cheerio-select', range: '', hasData: false }
+356 silly addNameRange { name: 'htmlparser2',
+356 silly addNameRange   range: '>=2.0.0- <3.0.0-',
+356 silly addNameRange   hasData: false }
+357 verbose cache add [ 'underscore@*', null ]
+358 silly cache add name=undefined spec="underscore@*" args=["underscore@*",null]
+359 verbose parsed url { pathname: 'underscore@*',
+359 verbose parsed url   path: 'underscore@*',
+359 verbose parsed url   href: 'underscore@*' }
+360 silly cache add name="underscore" spec="*" args=["underscore","*"]
+361 verbose parsed url { pathname: '*', path: '*', href: '*' }
+362 verbose addNamed [ 'underscore', '*' ]
+363 verbose addNamed [ null, '' ]
+364 silly lockFile 67e8a6a2-underscore underscore@*
+365 verbose lock underscore@* /Users/quickredfox/.npm/67e8a6a2-underscore.lock
+366 verbose cache add [ 'entities@0.x', null ]
+367 silly cache add name=undefined spec="entities@0.x" args=["entities@0.x",null]
+368 verbose parsed url { pathname: 'entities@0.x',
+368 verbose parsed url   path: 'entities@0.x',
+368 verbose parsed url   href: 'entities@0.x' }
+369 silly cache add name="entities" spec="0.x" args=["entities","0.x"]
+370 verbose parsed url { pathname: '0.x', path: '0.x', href: '0.x' }
+371 verbose addNamed [ 'entities', '0.x' ]
+372 verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+373 silly lockFile a4ccbd5f-entities-0-x entities@0.x
+374 verbose lock entities@0.x /Users/quickredfox/.npm/a4ccbd5f-entities-0-x.lock
+375 silly addNameRange { name: 'underscore', range: '', hasData: false }
+376 silly addNameRange { name: 'entities', range: '>=0.0.0- <1.0.0-', hasData: false }
+377 verbose url raw cheerio-select
+378 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio-select' ]
+379 verbose url resolved https://registry.npmjs.org/cheerio-select
+380 info trying registry request attempt 1 at 16:16:41
+381 verbose etag "B87AU3LDSQ9XCEKI4BR3KJ5QL"
+382 http GET https://registry.npmjs.org/cheerio-select
+383 verbose url raw htmlparser2
+384 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser2' ]
+385 verbose url resolved https://registry.npmjs.org/htmlparser2
+386 info trying registry request attempt 1 at 16:16:41
+387 verbose etag "1IMW0GQ7DSCZGOXF2Q3WDU2JI"
+388 http GET https://registry.npmjs.org/htmlparser2
+389 verbose url raw entities
+390 verbose url resolving [ 'https://registry.npmjs.org/', './entities' ]
+391 verbose url resolved https://registry.npmjs.org/entities
+392 info trying registry request attempt 1 at 16:16:41
+393 verbose etag "ETPR8H2BKHP7L69WSNZBQY26D"
+394 http GET https://registry.npmjs.org/entities
+395 verbose url raw underscore
+396 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+397 verbose url resolved https://registry.npmjs.org/underscore
+398 info trying registry request attempt 1 at 16:16:41
+399 verbose etag "9J6L4EIWKS1HBHOVFP3CW7I2W"
+400 http GET https://registry.npmjs.org/underscore
+401 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script/package.json
+402 silly lockFile f467b31a-lters-node-modules-coffee-script /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script
+403 info preinstall coffee-script@1.3.3
+404 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script/package.json
+405 verbose readDependencies using package.json deps
+406 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script/package.json
+407 verbose readDependencies using package.json deps
+408 silly resolved []
+409 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script
+410 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script
+411 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/coffee-script/package.json
+412 verbose linkStuff [ false,
+412 verbose linkStuff   false,
+412 verbose linkStuff   false,
+412 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules' ]
+413 info linkStuff coffee-script@1.3.3
+414 verbose linkBins coffee-script@1.3.3
+415 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+415 verbose link bins   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/.bin',
+415 verbose link bins   false ]
+416 verbose linkMans coffee-script@1.3.3
+417 verbose rebuildBundles coffee-script@1.3.3
+418 info install coffee-script@1.3.3
+419 info postinstall coffee-script@1.3.3
+420 http 304 https://registry.npmjs.org/falafel
+421 silly registry.get cb [ 304,
+421 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+421 silly registry.get     etag: '"4YLR645ZM62517ITDD4Q7RBMH"',
+421 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:40 GMT',
+421 silly registry.get     'content-length': '0' } ]
+422 verbose etag falafel from cache
+423 silly addNameRange number 2 { name: 'falafel', range: '>=0.1.3- <0.2.0-', hasData: true }
+424 silly addNameRange versions [ 'falafel',
+424 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.2', '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+425 verbose addNamed [ 'falafel', '0.1.3' ]
+426 verbose addNamed [ '0.1.3', '0.1.3' ]
+427 silly lockFile b9273faa-falafel-0-1-3 falafel@0.1.3
+428 verbose lock falafel@0.1.3 /Users/quickredfox/.npm/b9273faa-falafel-0-1-3.lock
+429 verbose read json /Users/quickredfox/.npm/falafel/0.1.3/package/package.json
+430 silly lockFile b9273faa-falafel-0-1-3 falafel@0.1.3
+431 silly lockFile 47bd46f4-falafel-0-1-3 falafel@~0.1.3
+432 http 304 https://registry.npmjs.org/optimist
+433 silly registry.get cb [ 304,
+433 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+433 silly registry.get     etag: '"3T2VRAGARMNNMM78O3SHRX2OV"',
+433 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:40 GMT',
+433 silly registry.get     'content-length': '0' } ]
+434 verbose etag optimist from cache
+435 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.4- <0.4.0-', hasData: true }
+436 silly addNameRange versions [ 'optimist',
+436 silly addNameRange   [ '0.0.1',
+436 silly addNameRange     '0.0.2',
+436 silly addNameRange     '0.0.4',
+436 silly addNameRange     '0.0.5',
+436 silly addNameRange     '0.0.6',
+436 silly addNameRange     '0.0.7',
+436 silly addNameRange     '0.1.0',
+436 silly addNameRange     '0.1.1',
+436 silly addNameRange     '0.1.2',
+436 silly addNameRange     '0.1.3',
+436 silly addNameRange     '0.1.4',
+436 silly addNameRange     '0.1.5',
+436 silly addNameRange     '0.1.6',
+436 silly addNameRange     '0.1.7',
+436 silly addNameRange     '0.1.8',
+436 silly addNameRange     '0.1.9',
+436 silly addNameRange     '0.0.3',
+436 silly addNameRange     '0.2.0',
+436 silly addNameRange     '0.2.1',
+436 silly addNameRange     '0.2.2',
+436 silly addNameRange     '0.2.3',
+436 silly addNameRange     '0.2.4',
+436 silly addNameRange     '0.2.5',
+436 silly addNameRange     '0.2.6',
+436 silly addNameRange     '0.2.7',
+436 silly addNameRange     '0.2.8',
+436 silly addNameRange     '0.3.0',
+436 silly addNameRange     '0.3.1',
+436 silly addNameRange     '0.3.3',
+436 silly addNameRange     '0.3.4',
+436 silly addNameRange     '0.3.5' ] ]
+437 verbose addNamed [ 'optimist', '0.3.5' ]
+438 verbose addNamed [ '0.3.5', '0.3.5' ]
+439 silly lockFile 72e2da2d-optimist-0-3-5 optimist@0.3.5
+440 verbose lock optimist@0.3.5 /Users/quickredfox/.npm/72e2da2d-optimist-0-3-5.lock
+441 verbose read json /Users/quickredfox/.npm/optimist/0.3.5/package/package.json
+442 silly lockFile 72e2da2d-optimist-0-3-5 optimist@0.3.5
+443 silly lockFile 094c60bd-optimist-0-3-4 optimist@~0.3.4
+444 silly resolved [ { name: 'falafel',
+444 silly resolved     description: 'transform the ast on a recursive walk',
+444 silly resolved     version: '0.1.3',
+444 silly resolved     repository:
+444 silly resolved      { type: 'git',
+444 silly resolved        url: 'git://github.com/substack/node-falafel.git' },
+444 silly resolved     main: 'index.js',
+444 silly resolved     keywords: [ 'ast', 'source', 'traversal', 'syntax', 'tree', 'burrito' ],
+444 silly resolved     directories: { example: 'example', test: 'test' },
+444 silly resolved     scripts: { test: 'tap test/*.js' },
+444 silly resolved     dependencies: { esprima: '~0.9.9' },
+444 silly resolved     devDependencies: { tap: '~0.2.4' },
+444 silly resolved     engines: { node: '>=0.4.0' },
+444 silly resolved     license: 'MIT',
+444 silly resolved     author:
+444 silly resolved      { name: 'James Halliday',
+444 silly resolved        email: 'mail@substack.net',
+444 silly resolved        url: 'http://substack.net' },
+444 silly resolved     readme: '# falafel\n\nTransform the [ast](http://en.wikipedia.org/wiki/Abstract_syntax_tree) on a\nrecursive walk.\n\n[![build status](https://secure.travis-ci.org/substack/node-falafel.png)](http://travis-ci.org/substack/node-falafel)\n\nThis module is like [burrito](https://github.com/substack/node-burrito),\nexcept that it uses [esprima](http://esprima.org) instead of\n[uglify](https://github.com/mishoo/UglifyJS)\nfor friendlier-looking ast nodes.\n\n# example\n\n## array.js\n\nPut a function wrapper around all array literals.\n\n``` js\nvar falafel = require(\'falafel\');\n\nvar src = \'(\' + function () {\n    var xs = [ 1, 2, [ 3, 4 ] ];\n    var ys = [ 5, 6 ];\n    console.dir([ xs, ys ]);\n} + \')()\';\n\nvar output = falafel(src, function (node) {\n    if (node.type === \'ArrayExpression\') {\n        node.update(\'fn(\' + node.source() + \')\');\n    }\n});\nconsole.log(output);\n```\n\noutput:\n\n```\n(function () {\n    var xs = fn([ 1, 2, fn([ 3, 4 ]) ]);\n    var ys = fn([ 5, 6 ]);\n    console.dir(fn([ xs, ys ]));\n})()\n```\n\n# methods\n\n``` js\nvar falafel = require(\'falafel\')\n```\n\n## falafel(src, opts={}, fn)\n\nTransform the string source `src` with the function `fn`, returning a\nstring-like transformed output object.\n\nFor every node in the ast, `fn(node)` fires. The recursive walk is a\npre-traversal, so children get called before their parents.\n\nPerforming a pre-traversal makes it easier to write nested transforms since\ntransforming parents often requires transforming all its children first.\n\nThe return value is string-like (it defines `.toString()` and `.inspect()`) so\nthat you can call `node.update()` asynchronously after the function has\nreturned and still capture the output.\n\nInstead of passing a `src` you can also use `opts.source`.\n\nAll of the `opts` will be passed directly to esprima except for `\'range\'` which\nis always turned on because falafel needs it.\n\nSome of the options you might want from esprima includes:\n`\'loc\'`, `\'raw\'`, `\'comments\'`, `\'tokens\'`, and `\'tolerant\'`.\n\n# nodes\n\nAside from the regular [esprima](http://esprima.org) data, you can also call\nsome inserted methods on nodes.\n\nAside from updating the current node, you can also reach into sub-nodes to call\nupdate functions on children from parent nodes.\n\n## node.source()\n\nReturn the source for the given node, including any modifications made to\nchildren nodes.\n\n## node.update(s)\n\nTransform the source for the present node to the string `s`.\n\nNote that in `\'ForStatement\'` node types, there is an existing subnode called\n`update`. For those nodes all the properties are copied over onto the\n`node.update()` function.\n\n## node.parent\n\nReference to the parent element or `null` at the root element.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install falafel\n```\n\n# license\n\nMIT\n',
+444 silly resolved     _id: 'falafel@0.1.3',
+444 silly resolved     _from: 'falafel@~0.1.3' },
+444 silly resolved   { name: 'optimist',
+444 silly resolved     version: '0.3.5',
+444 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+444 silly resolved     main: './index.js',
+444 silly resolved     directories: { lib: '.', test: 'test', example: 'example' },
+444 silly resolved     dependencies: { wordwrap: '~0.0.2' },
+444 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.2.4' },
+444 silly resolved     scripts: { test: 'tap ./test/*.js' },
+444 silly resolved     repository:
+444 silly resolved      { type: 'git',
+444 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+444 silly resolved     keywords:
+444 silly resolved      [ 'argument',
+444 silly resolved        'args',
+444 silly resolved        'option',
+444 silly resolved        'parser',
+444 silly resolved        'parsing',
+444 silly resolved        'cli',
+444 silly resolved        'command' ],
+444 silly resolved     author:
+444 silly resolved      { name: 'James Halliday',
+444 silly resolved        email: 'mail@substack.net',
+444 silly resolved        url: 'http://substack.net' },
+444 silly resolved     license: 'MIT/X11',
+444 silly resolved     engine: { node: '>=0.4' },
+444 silly resolved     readme: 'optimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+444 silly resolved     _id: 'optimist@0.3.5',
+444 silly resolved     _from: 'optimist@~0.3.4' } ]
+445 info install falafel@0.1.3 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis
+446 info install optimist@0.3.5 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis
+447 info installOne falafel@0.1.3
+448 info installOne optimist@0.3.5
+449 verbose from cache /Users/quickredfox/.npm/falafel/0.1.3/package/package.json
+450 verbose from cache /Users/quickredfox/.npm/optimist/0.3.5/package/package.json
+451 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel unbuild
+452 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/package.json
+453 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist unbuild
+454 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/package.json
+455 http 304 https://registry.npmjs.org/cheerio-select
+456 silly registry.get cb [ 304,
+456 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+456 silly registry.get     etag: '"B87AU3LDSQ9XCEKI4BR3KJ5QL"',
+456 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:40 GMT',
+456 silly registry.get     'content-length': '0' } ]
+457 verbose etag cheerio-select from cache
+458 verbose tar unpack /Users/quickredfox/.npm/falafel/0.1.3/package.tgz
+459 verbose tar unpack /Users/quickredfox/.npm/optimist/0.3.5/package.tgz
+460 silly lockFile eba237b7-es-readthis-node-modules-falafel /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel
+461 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel /Users/quickredfox/.npm/eba237b7-es-readthis-node-modules-falafel.lock
+462 silly lockFile eaf5314e-s-readthis-node-modules-optimist /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist
+463 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist /Users/quickredfox/.npm/eaf5314e-s-readthis-node-modules-optimist.lock
+464 silly gunzTarPerm modes [ '755', '644' ]
+465 silly gunzTarPerm modes [ '755', '644' ]
+466 silly addNameRange number 2 { name: 'cheerio-select', range: '', hasData: true }
+467 silly addNameRange versions [ 'cheerio-select', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+468 verbose addNamed [ 'cheerio-select', '0.0.3' ]
+469 verbose addNamed [ '0.0.3', '0.0.3' ]
+470 silly lockFile c182ce93-cheerio-select-0-0-3 cheerio-select@0.0.3
+471 verbose lock cheerio-select@0.0.3 /Users/quickredfox/.npm/c182ce93-cheerio-select-0-0-3.lock
+472 verbose read json /Users/quickredfox/.npm/cheerio-select/0.0.3/package/package.json
+473 silly gunzTarPerm extractEntry package.json
+474 silly gunzTarPerm extractEntry package.json
+475 silly gunzTarPerm extractEntry index.js
+476 silly gunzTarPerm extractEntry .travis.yml
+477 silly gunzTarPerm extractEntry LICENSE
+478 silly gunzTarPerm extractEntry index.js
+479 silly lockFile c182ce93-cheerio-select-0-0-3 cheerio-select@0.0.3
+480 silly lockFile 5395b76d-cheerio-select cheerio-select@*
+481 silly gunzTarPerm extractEntry example/array.js
+482 silly gunzTarPerm extractEntry example/prompt.js
+483 http 304 https://registry.npmjs.org/entities
+484 silly registry.get cb [ 304,
+484 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+484 silly registry.get     etag: '"ETPR8H2BKHP7L69WSNZBQY26D"',
+484 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:40 GMT',
+484 silly registry.get     'content-length': '0' } ]
+485 verbose etag entities from cache
+486 silly gunzTarPerm extractEntry README.markdown
+487 silly gunzTarPerm extractEntry x.js
+488 silly gunzTarPerm extractEntry .travis.yml
+489 silly gunzTarPerm extractEntry test/array.js
+490 silly gunzTarPerm extractEntry test/async.js
+491 silly gunzTarPerm extractEntry example/bool.js
+492 silly addNameRange number 2 { name: 'entities', range: '>=0.0.0- <1.0.0-', hasData: true }
+493 silly addNameRange versions [ 'entities', [ '0.1.0', '0.1.1' ] ]
+494 verbose addNamed [ 'entities', '0.1.1' ]
+495 verbose addNamed [ '0.1.1', '0.1.1' ]
+496 silly lockFile 6e59f3a3-entities-0-1-1 entities@0.1.1
+497 verbose lock entities@0.1.1 /Users/quickredfox/.npm/6e59f3a3-entities-0-1-1.lock
+498 verbose read json /Users/quickredfox/.npm/entities/0.1.1/package/package.json
+499 silly gunzTarPerm extractEntry example/default_singles.js
+500 silly gunzTarPerm extractEntry example/divide.js
+501 silly gunzTarPerm extractEntry test/for.js
+502 silly gunzTarPerm extractEntry test/parent.js
+503 silly gunzTarPerm extractEntry example/line_count.js
+504 silly gunzTarPerm extractEntry example/default_hash.js
+505 silly gunzTarPerm extractEntry example/line_count_wrap.js
+506 silly gunzTarPerm extractEntry example/nonopt.js
+507 silly gunzTarPerm extractEntry example/reflect.js
+508 silly gunzTarPerm extractEntry example/short.js
+509 silly gunzTarPerm extractEntry example/string.js
+510 silly lockFile 6e59f3a3-entities-0-1-1 entities@0.1.1
+511 silly gunzTarPerm extractEntry example/boolean_single.js
+512 silly gunzTarPerm extractEntry example/usage-options.js
+513 silly lockFile a4ccbd5f-entities-0-x entities@0.x
+514 silly gunzTarPerm extractEntry example/boolean_double.js
+515 silly gunzTarPerm extractEntry example/xup.js
+516 silly gunzTarPerm extractEntry example/line_count_options.js
+517 silly gunzTarPerm extractEntry README.markdown
+518 silly gunzTarPerm extractEntry test/_.js
+519 http 304 https://registry.npmjs.org/underscore
+520 silly registry.get cb [ 304,
+520 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+520 silly registry.get     etag: '"9J6L4EIWKS1HBHOVFP3CW7I2W"',
+520 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:40 GMT',
+520 silly registry.get     'content-length': '0' } ]
+521 verbose etag underscore from cache
+522 http 304 https://registry.npmjs.org/htmlparser2
+523 silly registry.get cb [ 304,
+523 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+523 silly registry.get     etag: '"1IMW0GQ7DSCZGOXF2Q3WDU2JI"',
+523 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:40 GMT',
+523 silly registry.get     'content-length': '0' } ]
+524 verbose etag htmlparser2 from cache
+525 silly gunzTarPerm extractEntry test/parse.js
+526 silly gunzTarPerm extractEntry test/usage.js
+527 silly gunzTarPerm extractEntry test/_/argv.js
+528 silly gunzTarPerm extractEntry test/_/bin.js
+529 silly addNameRange number 2 { name: 'underscore', range: '', hasData: true }
+530 silly addNameRange versions [ 'underscore',
+530 silly addNameRange   [ '1.0.3',
+530 silly addNameRange     '1.0.4',
+530 silly addNameRange     '1.1.0',
+530 silly addNameRange     '1.1.1',
+530 silly addNameRange     '1.1.2',
+530 silly addNameRange     '1.1.3',
+530 silly addNameRange     '1.1.4',
+530 silly addNameRange     '1.1.5',
+530 silly addNameRange     '1.1.6',
+530 silly addNameRange     '1.1.7',
+530 silly addNameRange     '1.2.0',
+530 silly addNameRange     '1.2.1',
+530 silly addNameRange     '1.2.2',
+530 silly addNameRange     '1.2.3',
+530 silly addNameRange     '1.2.4',
+530 silly addNameRange     '1.3.0',
+530 silly addNameRange     '1.3.1',
+530 silly addNameRange     '1.3.2',
+530 silly addNameRange     '1.3.3',
+530 silly addNameRange     '1.4.0',
+530 silly addNameRange     '1.4.1',
+530 silly addNameRange     '1.4.2' ] ]
+531 verbose addNamed [ 'underscore', '1.4.2' ]
+532 verbose addNamed [ '1.4.2', '1.4.2' ]
+533 silly lockFile 90fe1547-underscore-1-4-2 underscore@1.4.2
+534 verbose lock underscore@1.4.2 /Users/quickredfox/.npm/90fe1547-underscore-1-4-2.lock
+535 silly addNameRange number 2 { name: 'htmlparser2', range: '>=2.0.0- <3.0.0-', hasData: true }
+536 silly addNameRange versions [ 'htmlparser2',
+536 silly addNameRange   [ '1.0.0',
+536 silly addNameRange     '1.1.0',
+536 silly addNameRange     '1.5.0',
+536 silly addNameRange     '2.0.0',
+536 silly addNameRange     '2.0.1',
+536 silly addNameRange     '2.1.0',
+536 silly addNameRange     '2.1.1',
+536 silly addNameRange     '2.1.2',
+536 silly addNameRange     '2.1.3',
+536 silly addNameRange     '2.2.0',
+536 silly addNameRange     '2.2.2',
+536 silly addNameRange     '2.2.3',
+536 silly addNameRange     '2.2.4',
+536 silly addNameRange     '2.2.5',
+536 silly addNameRange     '2.2.6',
+536 silly addNameRange     '2.2.7',
+536 silly addNameRange     '2.2.8',
+536 silly addNameRange     '2.2.9',
+536 silly addNameRange     '2.3.0' ] ]
+537 verbose addNamed [ 'htmlparser2', '2.3.0' ]
+538 verbose addNamed [ '2.3.0', '2.3.0' ]
+539 silly lockFile 63c57737-htmlparser2-2-3-0 htmlparser2@2.3.0
+540 verbose lock htmlparser2@2.3.0 /Users/quickredfox/.npm/63c57737-htmlparser2-2-3-0.lock
+541 verbose read json /Users/quickredfox/.npm/underscore/1.4.2/package/package.json
+542 verbose read json /Users/quickredfox/.npm/htmlparser2/2.3.0/package/package.json
+543 silly lockFile 90fe1547-underscore-1-4-2 underscore@1.4.2
+544 silly lockFile 63c57737-htmlparser2-2-3-0 htmlparser2@2.3.0
+545 silly lockFile 67e8a6a2-underscore underscore@*
+546 silly lockFile 650cc907-htmlparser2-2-x htmlparser2@2.x
+547 silly resolved [ { name: 'cheerio-select',
+547 silly resolved     version: '0.0.3',
+547 silly resolved     description: 'Selector engine for cheerio',
+547 silly resolved     keywords: [],
+547 silly resolved     author: { name: 'Matt Mueller', email: 'mattmuelle@gmail.com' },
+547 silly resolved     dependencies: { CSSselect: '0.x' },
+547 silly resolved     devDependencies: { mocha: '*', cheerio: '*', 'expect.js': '*', underscore: '*' },
+547 silly resolved     main: 'index',
+547 silly resolved     engines: { node: '>= 0.4.7' },
+547 silly resolved     scripts: { test: 'make test' },
+547 silly resolved     readme: '\n# cheerio-select [![Build Status](https://secure.travis-ci.org/MatthewMueller/cheerio-select.png?branch=master)](http://travis-ci.org/MatthewMueller/cheerio-select)\n\n  Tiny wrapper around FB55\'s excellent [CSSselect](https://github.com/FB55/CSSselect) library.\n\n  cheerio-select provides a comprehensive test suite based on sizzle\'s test suite. \n\n  > Warning: Currently, not all tests pass, and some sizzle features will not be supported\n\n## Usage\n\n    var select = require(\'cheerio-select\'),\n        parse = require(\'cheerio\').parse,\n        dom = parse(\'<ul id = "fruits"><li class = "apple">Apple</li></ul>\');\n\n    select(\'#fruits > .apple\', dom);\n    => [{...}]\n\n## TODO \n\n* Get all the unit tests to pass!\n\n## Run tests\n\n    npm install\n    make test\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2012 Matt Mueller &lt;mattmuelle@gmail.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+547 silly resolved     _id: 'cheerio-select@0.0.3',
+547 silly resolved     _from: 'cheerio-select@*' },
+547 silly resolved   { name: 'entities',
+547 silly resolved     version: '0.1.1',
+547 silly resolved     description: 'Encode & decode XML/HTML entities with ease',
+547 silly resolved     author: { name: 'Felix Boehm', email: 'me@feedic.com' },
+547 silly resolved     keywords: [ 'html', 'xml', 'entity', 'encoding' ],
+547 silly resolved     main: './index.js',
+547 silly resolved     repository: { type: 'git', url: 'git://github.com/fb55/node-entities.git' },
+547 silly resolved     readme: '#entities\n\nEn- & decoder for XML/HTML entities.\n\n####Features:\n* Focussed on ___speed___\n* Supports three levels of entities: __XML__, __HTML4__ & __HTML5__\n    * Supports _char code_ entities (eg. `&#x55;`)\n    * Special optimizations for XML: A more restrictive syntax allows faster parsing\n\n##How to…\n\n###…install `entities`\n\n    npm install entities\n\n###…use `entities`\n\n```javascript\n//encoding\nrequire("entities").encode(<str> data[, <int> level]);\n//decoding\nrequire("entities").decode(<str> data[, <int> level]);\n```\n\nThe `level` attribute indicates what level of entities should be decoded (0 = XML, 1 = HTML4 and 2 = HTML5). The default is 0 (read: XML).\n\nThere are also methods to access the level directly. Just append the name of the level to the action and you\'re ready to go (e.g. `encodeHTML4(data)`, `decodeXML(data)`).\n\n##TODO\n* There should be a way to remove tables that aren\'t used. The HTML5 table is pretty heavy, if it\'s not needed, it shouldn\'t be kept in memory.',
+547 silly resolved     _id: 'entities@0.1.1',
+547 silly resolved     _from: 'entities@0.x' },
+547 silly resolved   { name: 'underscore',
+547 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+547 silly resolved     homepage: 'http://underscorejs.org',
+547 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+547 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+547 silly resolved     repository:
+547 silly resolved      { type: 'git',
+547 silly resolved        url: 'git://github.com/documentcloud/underscore.git' },
+547 silly resolved     main: 'underscore.js',
+547 silly resolved     version: '1.4.2',
+547 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nMany thanks to our contributors:\nhttps://github.com/documentcloud/underscore/contributors\n',
+547 silly resolved     _id: 'underscore@1.4.2',
+547 silly resolved     _from: 'underscore@*' },
+547 silly resolved   { name: 'htmlparser2',
+547 silly resolved     description: 'Performance-optimized forgiving HTML/XML/RSS parser',
+547 silly resolved     version: '2.3.0',
+547 silly resolved     author: { name: 'Felix Boehm', email: 'me@feedic.com' },
+547 silly resolved     keywords: [ 'html', 'parser', 'streams', 'xml', 'dom', 'rss', 'feed', 'atom' ],
+547 silly resolved     contributors: [ [Object] ],
+547 silly resolved     repository:
+547 silly resolved      { type: 'git',
+547 silly resolved        url: 'git://github.com/fb55/node-htmlparser.git' },
+547 silly resolved     bugs:
+547 silly resolved      { mail: 'me@feedic.com',
+547 silly resolved        url: 'http://github.com/fb55/node-htmlparser/issues' },
+547 silly resolved     directories: { lib: './lib/' },
+547 silly resolved     main: './lib/',
+547 silly resolved     scripts: { test: 'node tests/00-runtests.js' },
+547 silly resolved     engines: 'node >= 0.3.0',
+547 silly resolved     licenses: [ [Object] ],
+547 silly resolved     readme: '#htmlparser2 [![Build Status](https://secure.travis-ci.org/FB55/node-htmlparser.png)](http://travis-ci.org/FB55/node-htmlparser)\n\nA forgiving HTML/XML/RSS parser written in JS for NodeJS. The parser can handle streams (chunked data) and supports custom handlers for writing custom DOMs/output.\n\n##Installing\n\tnpm install htmlparser2\n\n##Usage\n\n```javascript\nvar htmlparser = require("htmlparser2");\nvar parser = new htmlparser.Parser({\n\tonopentag: function(name, attribs){\n\t\tif(name === "script" && attribs["language"] === "javascript"){\n\t\t\tconsole.log("JS! Hooray!");\n\t\t}\n\t},\n\tontext: function(text){\n\t\tconsole.log("-->", text);\n\t},\n\tonclosetag: function(tagname){\n\t\tif(tagname === "script"){\n\t\t\tconsole.log("That\'s it?!");\n\t\t}\n\t}\n});\nparser.write("Xyz <script language= javascript>var foo = \'<<bar>>\';< /  script>");\nparser.done();\n```\n\nOutput (simplified):\n\n```javascript\n--> Xyz \nJS! Hooray!\n--> var foo = \'<<bar>>\';\nThat\'s it?!\n```\n\nRead more about the parser in the [wiki](https://github.com/FB55/node-htmlparser/wiki/Parser-options).\n\n##Get a DOM\nThe `DomHandler` (known as `DefaultHandler` in the original `htmlparser` module) produces a DOM (document object model) that can be manipulated using the `DomUtils` helper.\n\nRead more about the DomHandler in the [wiki](https://github.com/FB55/node-htmlparser/wiki/DomHandler).\n\n##Parsing RSS/RDF/Atom Feeds\n\n```javascript\nnew htmlparser.FeedHandler(function(<error> error, <object> feed){\n    ...\n});\n```\n\n##Performance\nUsing a slightly modified version of [node-expat](https://github.com/astro/node-expat)s `bench.js`, I received the following results (on a MacBook (late 2010)):\n\n* [htmlparser](https://github.com/tautologistics/node-htmlparser): 51779 el/s\n* [sax.js](https://github.com/isaacs/sax-js): 53169 el/s\n* [node-expat](https://github.com/astro/node-expat): 103388 el/s\n* [htmlparser2](https://github.com/fb55/node-htmlparser): 118614 el/s\n\nThe test may be found in `tests/bench.js`.\n\n##How is this different from [node-htmlparser](https://github.com/tautologistics/node-htmlparser)?\nThis is a fork of the project above. The main difference is that this is intended to be used only with node (it runs on other platforms using [browserify](https://github.com/substack/node-browserify)). Besides, the code is much better structured, has less duplications and is remarkably faster than the original. \n\nThe parser now provides a callback interface close to [sax.js](https://github.com/isaacs/sax-js) (originally targeted at [readabilitySAX](https://github.com/fb55/readabilitysax)). I also fixed a couple of bugs & included some pull requests for the original project (eg. [RDF feed support](https://github.com/tautologistics/node-htmlparser/pull/35)).\n\nThe support for location data and verbose output was removed a couple of versions ago. It\'s still available in the [verbose branch](https://github.com/FB55/node-htmlparser/tree/verbose). \n\nThe `DefaultHandler` and the `RssHandler` were renamed to clarify their purpose (to `DomHandler` and `FeedHandler`). The old names are still available when requiring `htmlparser2`, so your code should work as expected.',
+547 silly resolved     _id: 'htmlparser2@2.3.0',
+547 silly resolved     _from: 'htmlparser2@2.x' } ]
+548 info install cheerio-select@0.0.3 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+549 info install entities@0.1.1 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+550 info install underscore@1.4.2 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+551 info install htmlparser2@2.3.0 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+552 info installOne cheerio-select@0.0.3
+553 info installOne entities@0.1.1
+554 info installOne underscore@1.4.2
+555 info installOne htmlparser2@2.3.0
+556 verbose from cache /Users/quickredfox/.npm/cheerio-select/0.0.3/package/package.json
+557 verbose from cache /Users/quickredfox/.npm/entities/0.1.1/package/package.json
+558 verbose from cache /Users/quickredfox/.npm/underscore/1.4.2/package/package.json
+559 verbose from cache /Users/quickredfox/.npm/htmlparser2/2.3.0/package/package.json
+560 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select unbuild
+561 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/package.json
+562 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities unbuild
+563 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities/package.json
+564 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore unbuild
+565 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore/package.json
+566 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2 unbuild
+567 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2/package.json
+568 verbose tar unpack /Users/quickredfox/.npm/cheerio-select/0.0.3/package.tgz
+569 verbose tar unpack /Users/quickredfox/.npm/entities/0.1.1/package.tgz
+570 verbose tar unpack /Users/quickredfox/.npm/underscore/1.4.2/package.tgz
+571 verbose tar unpack /Users/quickredfox/.npm/htmlparser2/2.3.0/package.tgz
+572 silly lockFile 49c5972a-erio-node-modules-cheerio-select /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select
+573 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select /Users/quickredfox/.npm/49c5972a-erio-node-modules-cheerio-select.lock
+574 silly lockFile c52cb09c-es-cheerio-node-modules-entities /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities
+575 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities /Users/quickredfox/.npm/c52cb09c-es-cheerio-node-modules-entities.lock
+576 silly lockFile 58418da4--cheerio-node-modules-underscore /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore
+577 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore /Users/quickredfox/.npm/58418da4--cheerio-node-modules-underscore.lock
+578 silly lockFile 8192338f-cheerio-node-modules-htmlparser2 /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2
+579 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2 /Users/quickredfox/.npm/8192338f-cheerio-node-modules-htmlparser2.lock
+580 silly gunzTarPerm modes [ '755', '644' ]
+581 silly gunzTarPerm modes [ '755', '644' ]
+582 silly gunzTarPerm modes [ '755', '644' ]
+583 silly gunzTarPerm modes [ '755', '644' ]
+584 silly gunzTarPerm extractEntry package.json
+585 silly gunzTarPerm extractEntry package.json
+586 silly gunzTarPerm extractEntry package.json
+587 silly gunzTarPerm extractEntry package.json
+588 silly gunzTarPerm extractEntry .npmignore
+589 silly gunzTarPerm extractEntry index.js
+590 silly gunzTarPerm extractEntry index.js
+591 silly gunzTarPerm extractEntry test.js
+592 silly gunzTarPerm extractEntry .npmignore
+593 silly gunzTarPerm extractEntry README.md
+594 silly gunzTarPerm extractEntry README.md
+595 silly gunzTarPerm extractEntry LICENSE
+596 silly gunzTarPerm extractEntry .travis.yml
+597 silly gunzTarPerm extractEntry History.md
+598 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/package.json
+599 silly gunzTarPerm extractEntry entities/html4.json
+600 silly gunzTarPerm extractEntry entities/html5.json
+601 silly gunzTarPerm extractEntry LICENSE
+602 silly gunzTarPerm extractEntry index.js
+603 silly gunzTarPerm extractEntry entities/xml.json
+604 silly gunzTarPerm extractEntry .travis.yml
+605 silly gunzTarPerm extractEntry lib/DomHandler.js
+606 silly gunzTarPerm extractEntry readme.md
+607 silly gunzTarPerm extractEntry lib/DomUtils.js
+608 silly gunzTarPerm extractEntry lib/select.js
+609 silly gunzTarPerm extractEntry Makefile
+610 silly gunzTarPerm extractEntry lib/ElementType.js
+611 silly gunzTarPerm extractEntry lib/FeedHandler.js
+612 silly gunzTarPerm extractEntry lib/index.js
+613 silly lockFile eba237b7-es-readthis-node-modules-falafel /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel
+614 silly gunzTarPerm extractEntry underscore-min.js
+615 silly gunzTarPerm extractEntry underscore.js
+616 silly gunzTarPerm extractEntry lib/Parser.js
+617 silly gunzTarPerm extractEntry index.html
+618 silly gunzTarPerm extractEntry Readme.md
+619 info preinstall falafel@0.1.3
+620 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/package.json
+621 silly gunzTarPerm extractEntry lib/ProxyHandler.js
+622 silly gunzTarPerm extractEntry lib/Stream.js
+623 silly gunzTarPerm extractEntry CNAME
+624 silly gunzTarPerm extractEntry favicon.ico
+625 silly gunzTarPerm extractEntry lib/WritableStream.js
+626 silly gunzTarPerm extractEntry raw/underscore.psd
+627 silly gunzTarPerm extractEntry tests/00-runtests.js
+628 silly gunzTarPerm extractEntry tests/02-feed.js
+629 silly gunzTarPerm extractEntry tests/03-events.js
+630 silly gunzTarPerm extractEntry tests/04-dom_utils.js
+631 silly gunzTarPerm extractEntry tests/05-stream.js
+632 silly gunzTarPerm extractEntry tests/99-benchmark.js
+633 silly gunzTarPerm extractEntry tests/01-dom.js
+634 silly gunzTarPerm extractEntry tests/test-helper.js
+635 silly gunzTarPerm extractEntry CONTRIBUTING.md
+636 silly gunzTarPerm extractEntry tests/bench.js
+637 silly gunzTarPerm extractEntry tests/Documents/Atom_Example.xml
+638 silly gunzTarPerm extractEntry tests/Documents/Basic.html
+639 silly gunzTarPerm extractEntry tests/Documents/RDF_Example.xml
+640 silly gunzTarPerm extractEntry tests/Documents/RSS_Example.xml
+641 silly gunzTarPerm extractEntry tests/DOM/12-text_only.json
+642 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/package.json
+643 silly gunzTarPerm extractEntry tests/DOM/01-basic.json
+644 silly gunzTarPerm extractEntry tests/DOM/03-single_tag_2.json
+645 silly gunzTarPerm extractEntry tests/DOM/04-unescaped_in_script.json
+646 silly lockFile 49c5972a-erio-node-modules-cheerio-select /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select
+647 silly gunzTarPerm extractEntry tests/DOM/05-tags_in_comment.json
+648 silly gunzTarPerm extractEntry tests/DOM/06-comment_in_script.json
+649 info preinstall cheerio-select@0.0.3
+650 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/package.json
+651 silly gunzTarPerm extractEntry tests/DOM/07-unescaped_in_style.json
+652 silly gunzTarPerm extractEntry tests/DOM/08-extra_spaces_in_tag.json
+653 silly gunzTarPerm extractEntry tests/DOM/09-unquoted_attrib.json
+654 silly gunzTarPerm extractEntry tests/DOM/10-singular_attribute.json
+655 silly gunzTarPerm extractEntry tests/DOM/11-text_outside_tags.json
+656 silly gunzTarPerm extractEntry tests/DOM/02-single_tag_1.json
+657 silly gunzTarPerm extractEntry tests/DOM/13-comment_in_text.json
+658 silly gunzTarPerm extractEntry tests/DOM/14-comment_in_text_in_script.json
+659 silly gunzTarPerm extractEntry tests/DOM/15-non-verbose.json
+660 silly gunzTarPerm extractEntry tests/DOM/16-ignore_whitespace.json
+661 silly gunzTarPerm extractEntry tests/DOM/17-xml_namespace.json
+662 silly gunzTarPerm extractEntry tests/DOM/18-enforce_empty_tags.json
+663 silly gunzTarPerm extractEntry tests/DOM/19-ignore_empty_tags.json
+664 silly gunzTarPerm extractEntry tests/DOM/20-template_script_tags.json
+665 silly gunzTarPerm extractEntry tests/DOM/21-conditional_comments.json
+666 silly gunzTarPerm extractEntry tests/DOM/22-lowercase_tags.json
+667 silly gunzTarPerm extractEntry tests/DomUtils/01-by_id.js
+668 silly gunzTarPerm extractEntry tests/DomUtils/02-by_tagname.js
+669 silly gunzTarPerm extractEntry tests/DomUtils/03-by_type.js
+670 silly gunzTarPerm extractEntry tests/DomUtils/04-outer_html.js
+671 silly gunzTarPerm extractEntry tests/DomUtils/05-inner_html.js
+672 silly gunzTarPerm extractEntry tests/Events/01-simple.json
+673 silly gunzTarPerm extractEntry tests/Events/02-template.json
+674 silly gunzTarPerm extractEntry tests/Events/03-lowercase_tags.json
+675 silly gunzTarPerm extractEntry tests/Events/04-cdata.json
+676 silly gunzTarPerm extractEntry tests/Feeds/01-rss.js
+677 silly gunzTarPerm extractEntry tests/Feeds/02-atom.js
+678 silly gunzTarPerm extractEntry tests/Feeds/03-rdf.js
+679 silly gunzTarPerm extractEntry tests/Stream/01-basic.json
+680 silly gunzTarPerm extractEntry tests/Stream/02-RSS.json
+681 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities/package.json
+682 silly lockFile c52cb09c-es-cheerio-node-modules-entities /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities
+683 info preinstall entities@0.1.1
+684 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities/package.json
+685 verbose readDependencies using package.json deps
+686 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/package.json
+687 verbose readDependencies using package.json deps
+688 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/package.json
+689 verbose readDependencies using package.json deps
+690 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities/package.json
+691 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/package.json
+692 silly lockFile eaf5314e-s-readthis-node-modules-optimist /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist
+693 info preinstall optimist@0.3.5
+694 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/package.json
+695 verbose readDependencies using package.json deps
+696 verbose readDependencies using package.json deps
+697 verbose readDependencies using package.json deps
+698 silly resolved []
+699 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities
+700 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities
+701 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/entities/package.json
+702 verbose readDependencies using package.json deps
+703 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/package.json
+704 verbose linkStuff [ false,
+704 verbose linkStuff   false,
+704 verbose linkStuff   false,
+704 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules' ]
+705 info linkStuff entities@0.1.1
+706 verbose linkBins entities@0.1.1
+707 verbose linkMans entities@0.1.1
+708 verbose rebuildBundles entities@0.1.1
+709 verbose cache add [ 'esprima@~0.9.9', null ]
+710 silly cache add name=undefined spec="esprima@~0.9.9" args=["esprima@~0.9.9",null]
+711 verbose parsed url { pathname: 'esprima@~0.9.9',
+711 verbose parsed url   path: 'esprima@~0.9.9',
+711 verbose parsed url   href: 'esprima@~0.9.9' }
+712 silly cache add name="esprima" spec="~0.9.9" args=["esprima","~0.9.9"]
+713 verbose parsed url { pathname: '~0.9.9', path: '~0.9.9', href: '~0.9.9' }
+714 verbose addNamed [ 'esprima', '~0.9.9' ]
+715 verbose addNamed [ null, '>=0.9.9- <0.10.0-' ]
+716 silly lockFile c716a742-esprima-0-9-9 esprima@~0.9.9
+717 verbose lock esprima@~0.9.9 /Users/quickredfox/.npm/c716a742-esprima-0-9-9.lock
+718 verbose cache add [ 'CSSselect@0.x', null ]
+719 silly cache add name=undefined spec="CSSselect@0.x" args=["CSSselect@0.x",null]
+720 verbose parsed url { pathname: 'CSSselect@0.x',
+720 verbose parsed url   path: 'CSSselect@0.x',
+720 verbose parsed url   href: 'CSSselect@0.x' }
+721 silly cache add name="CSSselect" spec="0.x" args=["CSSselect","0.x"]
+722 verbose parsed url { pathname: '0.x', path: '0.x', href: '0.x' }
+723 verbose addNamed [ 'CSSselect', '0.x' ]
+724 verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+725 silly lockFile b481d444-CSSselect-0-x CSSselect@0.x
+726 verbose lock CSSselect@0.x /Users/quickredfox/.npm/b481d444-CSSselect-0-x.lock
+727 info install entities@0.1.1
+728 verbose readDependencies using package.json deps
+729 silly addNameRange { name: 'esprima', range: '>=0.9.9- <0.10.0-', hasData: false }
+730 silly addNameRange { name: 'CSSselect', range: '>=0.0.0- <1.0.0-', hasData: false }
+731 info postinstall entities@0.1.1
+732 verbose url raw esprima
+733 verbose url resolving [ 'https://registry.npmjs.org/', './esprima' ]
+734 verbose url resolved https://registry.npmjs.org/esprima
+735 info trying registry request attempt 1 at 16:16:42
+736 verbose etag "3HFKBJOG4H5HWKZ2ISDO1WXX3"
+737 http GET https://registry.npmjs.org/esprima
+738 verbose cache add [ 'wordwrap@~0.0.2', null ]
+739 silly cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+740 verbose parsed url { pathname: 'wordwrap@~0.0.2',
+740 verbose parsed url   path: 'wordwrap@~0.0.2',
+740 verbose parsed url   href: 'wordwrap@~0.0.2' }
+741 silly cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+742 verbose parsed url { pathname: '~0.0.2', path: '~0.0.2', href: '~0.0.2' }
+743 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+744 verbose addNamed [ null, '>=0.0.2- <0.1.0-' ]
+745 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+746 verbose lock wordwrap@~0.0.2 /Users/quickredfox/.npm/8bd42136-wordwrap-0-0-2.lock
+747 verbose url raw CSSselect
+748 verbose url resolving [ 'https://registry.npmjs.org/', './CSSselect' ]
+749 verbose url resolved https://registry.npmjs.org/CSSselect
+750 info trying registry request attempt 1 at 16:16:42
+751 verbose etag "NCDNHAWS6R5PIK2SRED32K6K"
+752 http GET https://registry.npmjs.org/CSSselect
+753 silly addNameRange { name: 'wordwrap', range: '>=0.0.2- <0.1.0-', hasData: false }
+754 verbose url raw wordwrap
+755 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+756 verbose url resolved https://registry.npmjs.org/wordwrap
+757 info trying registry request attempt 1 at 16:16:42
+758 verbose etag "7CRB5CUFW01PZBEQA9MHWLLU"
+759 http GET https://registry.npmjs.org/wordwrap
+760 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2/package.json
+761 silly lockFile 8192338f-cheerio-node-modules-htmlparser2 /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2
+762 info preinstall htmlparser2@2.3.0
+763 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2/package.json
+764 verbose readDependencies using package.json deps
+765 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2/package.json
+766 verbose readDependencies using package.json deps
+767 silly resolved []
+768 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2
+769 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2
+770 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/htmlparser2/package.json
+771 verbose linkStuff [ false,
+771 verbose linkStuff   false,
+771 verbose linkStuff   false,
+771 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules' ]
+772 info linkStuff htmlparser2@2.3.0
+773 verbose linkBins htmlparser2@2.3.0
+774 verbose linkMans htmlparser2@2.3.0
+775 verbose rebuildBundles htmlparser2@2.3.0
+776 info install htmlparser2@2.3.0
+777 info postinstall htmlparser2@2.3.0
+778 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore/package.json
+779 silly lockFile 58418da4--cheerio-node-modules-underscore /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore
+780 info preinstall underscore@1.4.2
+781 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore/package.json
+782 verbose readDependencies using package.json deps
+783 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore/package.json
+784 verbose readDependencies using package.json deps
+785 silly resolved []
+786 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore
+787 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore
+788 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/underscore/package.json
+789 verbose linkStuff [ false,
+789 verbose linkStuff   false,
+789 verbose linkStuff   false,
+789 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules' ]
+790 info linkStuff underscore@1.4.2
+791 verbose linkBins underscore@1.4.2
+792 verbose linkMans underscore@1.4.2
+793 verbose rebuildBundles underscore@1.4.2
+794 info install underscore@1.4.2
+795 info postinstall underscore@1.4.2
+796 http 304 https://registry.npmjs.org/esprima
+797 silly registry.get cb [ 304,
+797 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+797 silly registry.get     etag: '"3HFKBJOG4H5HWKZ2ISDO1WXX3"',
+797 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:41 GMT',
+797 silly registry.get     'content-length': '0' } ]
+798 verbose etag esprima from cache
+799 http 304 https://registry.npmjs.org/CSSselect
+800 silly registry.get cb [ 304,
+800 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+800 silly registry.get     etag: '"NCDNHAWS6R5PIK2SRED32K6K"',
+800 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:41 GMT',
+800 silly registry.get     'content-length': '0' } ]
+801 verbose etag CSSselect from cache
+802 http 304 https://registry.npmjs.org/wordwrap
+803 silly registry.get cb [ 304,
+803 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+803 silly registry.get     etag: '"7CRB5CUFW01PZBEQA9MHWLLU"',
+803 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:41 GMT',
+803 silly registry.get     'content-length': '0' } ]
+804 verbose etag wordwrap from cache
+805 silly addNameRange number 2 { name: 'CSSselect', range: '>=0.0.0- <1.0.0-', hasData: true }
+806 silly addNameRange versions [ 'CSSselect',
+806 silly addNameRange   [ '0.0.1',
+806 silly addNameRange     '0.1.0',
+806 silly addNameRange     '0.1.1',
+806 silly addNameRange     '0.1.2',
+806 silly addNameRange     '0.2.1',
+806 silly addNameRange     '0.2.2',
+806 silly addNameRange     '0.2.3',
+806 silly addNameRange     '0.2.4',
+806 silly addNameRange     '0.3.0' ] ]
+807 verbose addNamed [ 'CSSselect', '0.3.0' ]
+808 verbose addNamed [ '0.3.0', '0.3.0' ]
+809 silly lockFile 5afd01a5-CSSselect-0-3-0 CSSselect@0.3.0
+810 verbose lock CSSselect@0.3.0 /Users/quickredfox/.npm/5afd01a5-CSSselect-0-3-0.lock
+811 silly addNameRange number 2 { name: 'esprima', range: '>=0.9.9- <0.10.0-', hasData: true }
+812 silly addNameRange versions [ 'esprima',
+812 silly addNameRange   [ '0.7.0',
+812 silly addNameRange     '0.8.0',
+812 silly addNameRange     '0.8.1',
+812 silly addNameRange     '0.8.2',
+812 silly addNameRange     '0.9.0',
+812 silly addNameRange     '0.9.1',
+812 silly addNameRange     '0.9.2',
+812 silly addNameRange     '0.9.3',
+812 silly addNameRange     '0.9.4',
+812 silly addNameRange     '0.9.5',
+812 silly addNameRange     '0.9.6',
+812 silly addNameRange     '0.9.7',
+812 silly addNameRange     '0.9.8',
+812 silly addNameRange     '0.9.9',
+812 silly addNameRange     '1.0.0' ] ]
+813 verbose addNamed [ 'esprima', '0.9.9' ]
+814 verbose addNamed [ '0.9.9', '0.9.9' ]
+815 silly lockFile 13b89ba0-esprima-0-9-9 esprima@0.9.9
+816 verbose lock esprima@0.9.9 /Users/quickredfox/.npm/13b89ba0-esprima-0-9-9.lock
+817 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2- <0.1.0-', hasData: true }
+818 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+819 verbose addNamed [ 'wordwrap', '0.0.2' ]
+820 verbose addNamed [ '0.0.2', '0.0.2' ]
+821 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+822 verbose lock wordwrap@0.0.2 /Users/quickredfox/.npm/24a694c8-wordwrap-0-0-2.lock
+823 verbose read json /Users/quickredfox/.npm/CSSselect/0.3.0/package/package.json
+824 verbose read json /Users/quickredfox/.npm/esprima/0.9.9/package/package.json
+825 verbose read json /Users/quickredfox/.npm/wordwrap/0.0.2/package/package.json
+826 silly lockFile 13b89ba0-esprima-0-9-9 esprima@0.9.9
+827 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+828 silly lockFile 5afd01a5-CSSselect-0-3-0 CSSselect@0.3.0
+829 silly lockFile c716a742-esprima-0-9-9 esprima@~0.9.9
+830 silly lockFile b481d444-CSSselect-0-x CSSselect@0.x
+831 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+832 silly resolved [ { name: 'esprima',
+832 silly resolved     description: 'ECMAScript parsing infrastructure for multipurpose analysis',
+832 silly resolved     homepage: 'http://esprima.org',
+832 silly resolved     main: 'esprima.js',
+832 silly resolved     bin: { esparse: './bin/esparse.js' },
+832 silly resolved     version: '0.9.9',
+832 silly resolved     engines: { node: '>=0.4.0' },
+832 silly resolved     maintainers: [ [Object] ],
+832 silly resolved     repository: { type: 'git', url: 'http://github.com/ariya/esprima.git' },
+832 silly resolved     licenses: [ [Object] ],
+832 silly resolved     scripts:
+832 silly resolved      { test: 'node test/run.js',
+832 silly resolved        benchmark: 'node test/benchmarks.js',
+832 silly resolved        'benchmark-quick': 'node test/benchmarks.js quick' },
+832 silly resolved     readme: 'Esprima ([esprima.org](http://esprima.org)) is an educational\n[ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)\n(also popularly known as [JavaScript](http://en.wikipedia.org/wiki/JavaScript>JavaScript))\nparsing infrastructure for multipurpose analysis. It is also written in ECMAScript.\n\nEsprima serves as a good basis for various tools such as source\nmodification ([Esmorph](https://github.com/ariya/esmorph)), coverage analyzer\n([node-cover](https://github.com/itay/node-cover) and\n[coveraje](https://github.com/coveraje/coveraje)),\nsource-to-source compiler ([Marv](https://github.com/Yoric/Marv-the-Tinker)),\nsyntax formatter ([Code Painter](https://github.com/fawek/codepainter)),\nand code generator ([escodegen](https://github.com/Constellation/escodegen)).\n\nEsprima can be used in a web browser:\n\n    <script src="esprima.js"></script>\n\nor in a Node.js application via the package manager:\n\n    npm install esprima\n\nEsprima parser output is compatible with Mozilla (SpiderMonkey)\n[Parser API](https://developer.mozilla.org/en/SpiderMonkey/Parser_API).\n\nA very simple example:\n\n    esprima.parse(\'var answer=42\').body[0].declarations[0].init\n\nproduces the following object:\n\n    { type: \'Literal\', value: 42 }\n\nEsprima is still in the development, for now please check\n[the wiki documentation](http://wiki.esprima.org).\n\nSince it is not comprehensive nor complete, refer to the\n[issue tracker](http://issues.esprima.org) for\n[known problems](http://code.google.com/p/esprima/issues/list?q=Defect)\nand [future plans](http://code.google.com/p/esprima/issues/list?q=Enhancement).\nEsprima is supported on [many browsers](http://code.google.com/p/esprima/wiki/BrowserCompatibility):\nIE 6+, Firefox 1+, Safari 3+, Chrome 1+, and Opera 8+.\n\nFeedback and contribution are welcomed! Please join the\n[mailing list](http://groups.google.com/group/esprima) and read the\n[contribution guide](http://code.google.com/p/esprima/wiki/ContributionGuide)\nfor further info.\n\n\n### License\n\nCopyright (C) 2012, 2011 [Ariya Hidayat](http://ariya.ofilabs.com/about)\n (twitter: [@ariyahidayat](http://twitter.com/ariyahidayat)) and other contributors.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n  * Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n  * Redistributions in binary form must reproduce the above copyright\n    notice, this list of conditions and the following disclaimer in the\n    documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\nTHIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n',
+832 silly resolved     _id: 'esprima@0.9.9',
+832 silly resolved     _from: 'esprima@~0.9.9' } ]
+833 info install esprima@0.9.9 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel
+834 info installOne esprima@0.9.9
+835 verbose from cache /Users/quickredfox/.npm/esprima/0.9.9/package/package.json
+836 silly resolved [ { name: 'CSSselect',
+836 silly resolved     version: '0.3.0',
+836 silly resolved     description: 'a rtl CSS selector engine',
+836 silly resolved     author: { name: 'Felix Boehm', email: 'me@feedic.com' },
+836 silly resolved     keywords: [ 'css', 'selector' ],
+836 silly resolved     main: 'index.js',
+836 silly resolved     engine: '',
+836 silly resolved     repository: { type: 'git', url: 'git://github.com/fb55/cssselect.git' },
+836 silly resolved     dependencies: { CSSwhat: '>= 0.1' },
+836 silly resolved     devDependencies:
+836 silly resolved      { htmlparser2: '>= 2.2.8',
+836 silly resolved        'cheerio-soupselect': '*',
+836 silly resolved        mocha: '*',
+836 silly resolved        'expect.js': '*' },
+836 silly resolved     scripts: { test: 'mocha -u exports -R list tests/qwery tests/nwmatcher/scotch.js' },
+836 silly resolved     readme: '#CSSselect [![Build Status](https://secure.travis-ci.org/fb55/CSSselect.png?branch=master)](http://travis-ci.org/fb55/CSSselect)\n\n##What?\n\nCSSselect is CSS selector engine. It returns a function that tests elements if they match a selector - checking needs to happen "from the top", like browser engines execute queries.\n\n##Why?\n\nJust take the following CSS query: `foo bar baz`. When the element named `baz` has like a billion children, every one of them needs to be checked if they match a query. Three times, to be precise, if you run a CSS query from the start to the end (as e.g. JSDOM does). Yup, that\'s slow.\n\nThis library checks every element once. The more complex the query, the greater the benefit.\n\n##How?\n\nBy stacking functions!\n\n##TODO\n\n1. The API needs to be improved\n2. Documentation needs to be written',
+836 silly resolved     _id: 'CSSselect@0.3.0',
+836 silly resolved     _from: 'CSSselect@0.x' } ]
+837 info install CSSselect@0.3.0 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select
+838 info installOne CSSselect@0.3.0
+839 silly resolved [ { name: 'wordwrap',
+839 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+839 silly resolved     version: '0.0.2',
+839 silly resolved     repository:
+839 silly resolved      { type: 'git',
+839 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+839 silly resolved     main: './index.js',
+839 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+839 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+839 silly resolved     scripts: { test: 'expresso' },
+839 silly resolved     devDependencies: { expresso: '=0.7.x' },
+839 silly resolved     engines: { node: '>=0.4.0' },
+839 silly resolved     license: 'MIT/X11',
+839 silly resolved     author:
+839 silly resolved      { name: 'James Halliday',
+839 silly resolved        email: 'mail@substack.net',
+839 silly resolved        url: 'http://substack.net' },
+839 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+839 silly resolved     _id: 'wordwrap@0.0.2',
+839 silly resolved     _from: 'wordwrap@~0.0.2' } ]
+840 info install wordwrap@0.0.2 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist
+841 info installOne wordwrap@0.0.2
+842 verbose from cache /Users/quickredfox/.npm/CSSselect/0.3.0/package/package.json
+843 verbose from cache /Users/quickredfox/.npm/wordwrap/0.0.2/package/package.json
+844 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima unbuild
+845 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima/package.json
+846 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect unbuild
+847 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+848 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap unbuild
+849 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap/package.json
+850 verbose tar unpack /Users/quickredfox/.npm/esprima/0.9.9/package.tgz
+851 verbose tar unpack /Users/quickredfox/.npm/CSSselect/0.3.0/package.tgz
+852 verbose tar unpack /Users/quickredfox/.npm/wordwrap/0.0.2/package.tgz
+853 silly lockFile c7e9b9f3-les-falafel-node-modules-esprima /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima
+854 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima /Users/quickredfox/.npm/c7e9b9f3-les-falafel-node-modules-esprima.lock
+855 silly lockFile 03eb05ac-io-select-node-modules-CSSselect /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect
+856 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect /Users/quickredfox/.npm/03eb05ac-io-select-node-modules-CSSselect.lock
+857 silly lockFile 8012b0c4-s-optimist-node-modules-wordwrap /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap
+858 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap /Users/quickredfox/.npm/8012b0c4-s-optimist-node-modules-wordwrap.lock
+859 silly gunzTarPerm modes [ '755', '644' ]
+860 silly gunzTarPerm modes [ '755', '644' ]
+861 silly gunzTarPerm modes [ '755', '644' ]
+862 silly gunzTarPerm extractEntry package.json
+863 silly gunzTarPerm extractEntry package.json
+864 silly gunzTarPerm extractEntry .npmignore
+865 silly gunzTarPerm extractEntry README.md
+866 silly gunzTarPerm extractEntry esprima.js
+867 silly gunzTarPerm extractEntry README.md
+868 silly gunzTarPerm extractEntry browser_functions.js
+869 silly gunzTarPerm extractEntry example/
+870 silly gunzTarPerm extractEntry example/center.js
+871 silly gunzTarPerm extractEntry changes
+872 silly gunzTarPerm extractEntry cm
+873 silly gunzTarPerm extractEntry example/meat.js
+874 silly gunzTarPerm extractEntry index.js
+875 silly gunzTarPerm extractEntry package.json
+876 silly gunzTarPerm extractEntry index.js
+877 silly gunzTarPerm extractEntry .travis.yml
+878 silly gunzTarPerm extractEntry demo/checkenv.js
+879 silly gunzTarPerm extractEntry demo/collector.js
+880 silly gunzTarPerm extractEntry demo/functiontrace.js
+881 silly gunzTarPerm extractEntry demo/rewrite.js
+882 silly gunzTarPerm extractEntry README.markdown
+883 silly gunzTarPerm extractEntry test/
+884 silly gunzTarPerm extractEntry demo/collector.html
+885 silly gunzTarPerm extractEntry tests/bench.js
+886 silly gunzTarPerm extractEntry tests/helper.js
+887 silly gunzTarPerm extractEntry test/break.js
+888 silly gunzTarPerm extractEntry test/idleness.txt
+889 silly gunzTarPerm extractEntry demo/functiontrace.html
+890 silly gunzTarPerm extractEntry demo/parse.css
+891 silly gunzTarPerm extractEntry demo/parse.html
+892 silly gunzTarPerm extractEntry demo/precedence.html
+893 silly gunzTarPerm extractEntry tests/slickspeed.js
+894 silly gunzTarPerm extractEntry tests/docs/W3C_Selectors.html
+895 silly gunzTarPerm extractEntry demo/rewrite.html
+896 silly gunzTarPerm extractEntry tests/nwmatcher/LICENSE
+897 silly gunzTarPerm extractEntry assets/json2.js
+898 silly gunzTarPerm extractEntry test/wrap.js
+899 silly gunzTarPerm extractEntry tests/nwmatcher/scotch.js
+900 silly gunzTarPerm extractEntry assets/codemirror/codemirror.js
+901 silly gunzTarPerm extractEntry tests/nwmatcher/test.html
+902 silly gunzTarPerm extractEntry tests/qwery/index.js
+903 silly gunzTarPerm extractEntry tests/qwery/index.html
+904 silly gunzTarPerm extractEntry assets/codemirror/javascript.js
+905 silly gunzTarPerm extractEntry assets/codemirror/codemirror.css
+906 silly gunzTarPerm extractEntry assets/style.css
+907 silly gunzTarPerm extractEntry assets/yui/treeview-min.js
+908 silly gunzTarPerm extractEntry assets/yui/yahoo-dom-event.js
+909 silly gunzTarPerm extractEntry assets/yui/treeview-sprite.gif
+910 silly gunzTarPerm extractEntry assets/yui/treeview.css
+911 silly gunzTarPerm extractEntry index.html
+912 silly gunzTarPerm extractEntry LICENSE.BSD
+913 silly gunzTarPerm extractEntry .travis.yml
+914 silly gunzTarPerm extractEntry bin/esparse.js
+915 silly gunzTarPerm extractEntry test/test.js
+916 silly gunzTarPerm extractEntry test/benchmarks.js
+917 silly gunzTarPerm extractEntry test/compare.js
+918 silly gunzTarPerm extractEntry test/compat.js
+919 silly gunzTarPerm extractEntry test/reflect.js
+920 silly gunzTarPerm extractEntry test/run.js
+921 silly gunzTarPerm extractEntry test/compare.html
+922 silly gunzTarPerm extractEntry test/benchmarks.html
+923 silly gunzTarPerm extractEntry test/coverage.header.html
+924 silly gunzTarPerm extractEntry test/coverage.html
+925 silly gunzTarPerm extractEntry test/index.html
+926 silly gunzTarPerm extractEntry test/3rdparty/backbone-0.5.3.js
+927 silly gunzTarPerm extractEntry test/3rdparty/jquery-1.7.1.js
+928 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap/package.json
+929 silly lockFile 8012b0c4-s-optimist-node-modules-wordwrap /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap
+930 info preinstall wordwrap@0.0.2
+931 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap/package.json
+932 silly gunzTarPerm extractEntry test/3rdparty/jquery.mobile-1.0.js
+933 silly gunzTarPerm extractEntry test/3rdparty/jsdefs.js
+934 silly gunzTarPerm extractEntry test/3rdparty/jslex.js
+935 silly gunzTarPerm extractEntry test/3rdparty/jquery-1.6.4.js
+936 silly gunzTarPerm extractEntry test/3rdparty/mootools-1.3.2.js
+937 silly gunzTarPerm extractEntry test/3rdparty/mootools-1.4.1.js
+938 verbose readDependencies using package.json deps
+939 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap/package.json
+940 silly gunzTarPerm extractEntry test/3rdparty/parse-js.js
+941 silly gunzTarPerm extractEntry test/3rdparty/platform.js
+942 silly gunzTarPerm extractEntry test/3rdparty/prototype-1.6.1.js
+943 silly gunzTarPerm extractEntry test/3rdparty/ext-core-3.1.0.js
+944 verbose readDependencies using package.json deps
+945 silly resolved []
+946 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap
+947 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap
+948 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules/wordwrap/package.json
+949 verbose linkStuff [ false,
+949 verbose linkStuff   false,
+949 verbose linkStuff   false,
+949 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/node_modules' ]
+950 info linkStuff wordwrap@0.0.2
+951 verbose linkBins wordwrap@0.0.2
+952 verbose linkMans wordwrap@0.0.2
+953 verbose rebuildBundles wordwrap@0.0.2
+954 info install wordwrap@0.0.2
+955 info postinstall wordwrap@0.0.2
+956 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist
+957 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist
+958 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/optimist/package.json
+959 verbose linkStuff [ false,
+959 verbose linkStuff   false,
+959 verbose linkStuff   false,
+959 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules' ]
+960 info linkStuff optimist@0.3.5
+961 verbose linkBins optimist@0.3.5
+962 verbose linkMans optimist@0.3.5
+963 verbose rebuildBundles optimist@0.3.5
+964 verbose rebuildBundles [ 'wordwrap' ]
+965 info install optimist@0.3.5
+966 info postinstall optimist@0.3.5
+967 silly gunzTarPerm extractEntry test/3rdparty/prototype-1.7.0.0.js
+968 silly gunzTarPerm extractEntry test/3rdparty/ext-core-3.0.0.js
+969 silly gunzTarPerm extractEntry test/3rdparty/Tokenizer.js
+970 silly gunzTarPerm extractEntry test/3rdparty/esmorph.js
+971 silly gunzTarPerm extractEntry test/3rdparty/underscore-1.2.3.js
+972 silly gunzTarPerm extractEntry test/3rdparty/escodegen.js
+973 silly gunzTarPerm extractEntry test/3rdparty/XMLHttpRequest.js
+974 silly gunzTarPerm extractEntry test/3rdparty/benchmark.js
+975 silly gunzTarPerm extractEntry test/3rdparty/ZeParser.js
+976 silly gunzTarPerm extractEntry test/3rdparty/jsparse.js
+977 silly gunzTarPerm extractEntry test/compat.html
+978 silly gunzTarPerm extractEntry test/coverage.footer.html
+979 silly gunzTarPerm extractEntry tools/generate-unicode-regex.py
+980 silly gunzTarPerm extractEntry tools/update-coverage.sh
+981 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+982 silly lockFile 03eb05ac-io-select-node-modules-CSSselect /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect
+983 info preinstall CSSselect@0.3.0
+984 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+985 verbose readDependencies using package.json deps
+986 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+987 verbose readDependencies using package.json deps
+988 verbose cache add [ 'CSSwhat@>= 0.1', null ]
+989 silly cache add name=undefined spec="CSSwhat@>= 0.1" args=["CSSwhat@>= 0.1",null]
+990 verbose parsed url { pathname: 'CSSwhat@%3E=%200.1',
+990 verbose parsed url   path: 'CSSwhat@%3E=%200.1',
+990 verbose parsed url   href: 'CSSwhat@%3E=%200.1' }
+991 silly cache add name="CSSwhat" spec=">= 0.1" args=["CSSwhat",">= 0.1"]
+992 verbose parsed url { pathname: '%3E=%200.1',
+992 verbose parsed url   path: '%3E=%200.1',
+992 verbose parsed url   href: '%3E=%200.1' }
+993 verbose addNamed [ 'CSSwhat', '>= 0.1' ]
+994 verbose addNamed [ null, '>=0.1.0-' ]
+995 silly lockFile d8d86382-CSSwhat-0-1 CSSwhat@>= 0.1
+996 verbose lock CSSwhat@>= 0.1 /Users/quickredfox/.npm/d8d86382-CSSwhat-0-1.lock
+997 silly addNameRange { name: 'CSSwhat', range: '>=0.1.0-', hasData: false }
+998 verbose url raw CSSwhat
+999 verbose url resolving [ 'https://registry.npmjs.org/', './CSSwhat' ]
+1000 verbose url resolved https://registry.npmjs.org/CSSwhat
+1001 info trying registry request attempt 1 at 16:16:43
+1002 verbose etag "TJM114X14VZ5JHQO1POSMYX7"
+1003 http GET https://registry.npmjs.org/CSSwhat
+1004 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima/package.json
+1005 silly lockFile c7e9b9f3-les-falafel-node-modules-esprima /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima
+1006 info preinstall esprima@0.9.9
+1007 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima/package.json
+1008 verbose readDependencies using package.json deps
+1009 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima/package.json
+1010 verbose readDependencies using package.json deps
+1011 silly resolved []
+1012 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima
+1013 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima
+1014 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/esprima/package.json
+1015 verbose linkStuff [ false,
+1015 verbose linkStuff   false,
+1015 verbose linkStuff   false,
+1015 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules' ]
+1016 info linkStuff esprima@0.9.9
+1017 verbose linkBins esprima@0.9.9
+1018 verbose link bins [ { esparse: './bin/esparse.js' },
+1018 verbose link bins   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/node_modules/.bin',
+1018 verbose link bins   false ]
+1019 verbose linkMans esprima@0.9.9
+1020 verbose rebuildBundles esprima@0.9.9
+1021 info install esprima@0.9.9
+1022 info postinstall esprima@0.9.9
+1023 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel
+1024 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel
+1025 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules/falafel/package.json
+1026 verbose linkStuff [ false,
+1026 verbose linkStuff   false,
+1026 verbose linkStuff   false,
+1026 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/node_modules' ]
+1027 info linkStuff falafel@0.1.3
+1028 verbose linkBins falafel@0.1.3
+1029 verbose linkMans falafel@0.1.3
+1030 verbose rebuildBundles falafel@0.1.3
+1031 verbose rebuildBundles [ '.bin', 'esprima' ]
+1032 info install falafel@0.1.3
+1033 info postinstall falafel@0.1.3
+1034 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis
+1035 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis
+1036 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/readthis/package.json
+1037 verbose linkStuff [ false,
+1037 verbose linkStuff   false,
+1037 verbose linkStuff   false,
+1037 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules' ]
+1038 info linkStuff readthis@0.0.3
+1039 verbose linkBins readthis@0.0.3
+1040 verbose link bins [ { readthis: './bin/readthis.coffee' },
+1040 verbose link bins   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/.bin',
+1040 verbose link bins   false ]
+1041 verbose linkMans readthis@0.0.3
+1042 verbose rebuildBundles readthis@0.0.3
+1043 verbose rebuildBundles [ 'falafel', 'optimist' ]
+1044 info install readthis@0.0.3
+1045 info postinstall readthis@0.0.3
+1046 http 304 https://registry.npmjs.org/CSSwhat
+1047 silly registry.get cb [ 304,
+1047 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+1047 silly registry.get     etag: '"TJM114X14VZ5JHQO1POSMYX7"',
+1047 silly registry.get     date: 'Wed, 24 Oct 2012 20:16:42 GMT',
+1047 silly registry.get     'content-length': '0' } ]
+1048 verbose etag CSSwhat from cache
+1049 silly addNameRange number 2 { name: 'CSSwhat', range: '>=0.1.0-', hasData: true }
+1050 silly addNameRange versions [ 'CSSwhat', [ '0.0.0', '0.1.0' ] ]
+1051 verbose addNamed [ 'CSSwhat', '0.1.0' ]
+1052 verbose addNamed [ '0.1.0', '0.1.0' ]
+1053 silly lockFile 7e258b0b-CSSwhat-0-1-0 CSSwhat@0.1.0
+1054 verbose lock CSSwhat@0.1.0 /Users/quickredfox/.npm/7e258b0b-CSSwhat-0-1-0.lock
+1055 verbose read json /Users/quickredfox/.npm/CSSwhat/0.1.0/package/package.json
+1056 silly lockFile 7e258b0b-CSSwhat-0-1-0 CSSwhat@0.1.0
+1057 silly lockFile d8d86382-CSSwhat-0-1 CSSwhat@>= 0.1
+1058 silly resolved [ { author:
+1058 silly resolved      { name: 'Felix Böhm',
+1058 silly resolved        email: 'me@feedic.com',
+1058 silly resolved        url: 'http://feedic.com' },
+1058 silly resolved     name: 'CSSwhat',
+1058 silly resolved     description: 'a CSS selector parser',
+1058 silly resolved     version: '0.1.0',
+1058 silly resolved     repository: { url: 'https://github.com/FB55/CSSwhat' },
+1058 silly resolved     main: '/index.js',
+1058 silly resolved     scripts: { test: 'node tests/test.js' },
+1058 silly resolved     dependencies: {},
+1058 silly resolved     devDependencies: {},
+1058 silly resolved     optionalDependencies: {},
+1058 silly resolved     engines: { node: '*' },
+1058 silly resolved     readme: '#CSSwhat [![Build Status](https://secure.travis-ci.org/FB55/CSSwhat.png?branch=master)](http://travis-ci.org/FB55/CSSwhat)\n\na CSS selector parser\n\n__// TODO__',
+1058 silly resolved     _id: 'CSSwhat@0.1.0',
+1058 silly resolved     _from: 'CSSwhat@>= 0.1' } ]
+1059 info install CSSwhat@0.1.0 into /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect
+1060 info installOne CSSwhat@0.1.0
+1061 verbose from cache /Users/quickredfox/.npm/CSSwhat/0.1.0/package/package.json
+1062 info /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat unbuild
+1063 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1064 verbose tar unpack /Users/quickredfox/.npm/CSSwhat/0.1.0/package.tgz
+1065 silly lockFile 6fe9d4ac-s-CSSselect-node-modules-CSSwhat /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat
+1066 verbose lock /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat /Users/quickredfox/.npm/6fe9d4ac-s-CSSselect-node-modules-CSSwhat.lock
+1067 silly gunzTarPerm modes [ '755', '644' ]
+1068 silly gunzTarPerm extractEntry package.json
+1069 silly gunzTarPerm extractEntry index.js
+1070 silly gunzTarPerm extractEntry .travis.yml
+1071 silly gunzTarPerm extractEntry readme.md
+1072 silly gunzTarPerm extractEntry tests/test.js
+1073 verbose read json /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1074 silly lockFile 6fe9d4ac-s-CSSselect-node-modules-CSSwhat /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat
+1075 info preinstall CSSwhat@0.1.0
+1076 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1077 verbose readDependencies using package.json deps
+1078 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1079 verbose readDependencies using package.json deps
+1080 silly resolved []
+1081 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat
+1082 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat
+1083 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1084 verbose linkStuff [ false,
+1084 verbose linkStuff   false,
+1084 verbose linkStuff   false,
+1084 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules' ]
+1085 info linkStuff CSSwhat@0.1.0
+1086 verbose linkBins CSSwhat@0.1.0
+1087 verbose linkMans CSSwhat@0.1.0
+1088 verbose rebuildBundles CSSwhat@0.1.0
+1089 info install CSSwhat@0.1.0
+1090 info postinstall CSSwhat@0.1.0
+1091 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect
+1092 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect
+1093 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+1094 verbose linkStuff [ false,
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/node_modules' ]
+1095 info linkStuff CSSselect@0.3.0
+1096 verbose linkBins CSSselect@0.3.0
+1097 verbose linkMans CSSselect@0.3.0
+1098 verbose rebuildBundles CSSselect@0.3.0
+1099 verbose rebuildBundles [ 'CSSwhat' ]
+1100 info install CSSselect@0.3.0
+1101 info postinstall CSSselect@0.3.0
+1102 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select
+1103 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select
+1104 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules/cheerio-select/package.json
+1105 verbose linkStuff [ false,
+1105 verbose linkStuff   false,
+1105 verbose linkStuff   false,
+1105 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/node_modules' ]
+1106 info linkStuff cheerio-select@0.0.3
+1107 verbose linkBins cheerio-select@0.0.3
+1108 verbose linkMans cheerio-select@0.0.3
+1109 verbose rebuildBundles cheerio-select@0.0.3
+1110 verbose rebuildBundles [ 'CSSselect' ]
+1111 info install cheerio-select@0.0.3
+1112 info postinstall cheerio-select@0.0.3
+1113 verbose about to build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+1114 info build /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio
+1115 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/node_modules/cheerio/package.json
+1116 verbose linkStuff [ false,
+1116 verbose linkStuff   false,
+1116 verbose linkStuff   false,
+1116 verbose linkStuff   '/Users/quickredfox/code/service-magic/clouseau-filters/node_modules' ]
+1117 info linkStuff cheerio@0.10.1
+1118 verbose linkBins cheerio@0.10.1
+1119 verbose linkMans cheerio@0.10.1
+1120 verbose rebuildBundles cheerio@0.10.1
+1121 verbose rebuildBundles [ 'cheerio-select', 'entities', 'htmlparser2', 'underscore' ]
+1122 info install cheerio@0.10.1
+1123 info postinstall cheerio@0.10.1
+1124 info build /Users/quickredfox/code/service-magic/clouseau-filters
+1125 verbose from cache /Users/quickredfox/code/service-magic/clouseau-filters/package.json
+1126 verbose linkStuff [ false, false, false, '/Users/quickredfox/code/service-magic' ]
+1127 info linkStuff clouseau-filters@0.0.1
+1128 verbose linkBins clouseau-filters@0.0.1
+1129 verbose linkMans clouseau-filters@0.0.1
+1130 verbose rebuildBundles clouseau-filters@0.0.1
+1131 verbose rebuildBundles [ '.bin', 'cheerio', 'coffee-script', 'ouija', 'readthis' ]
+1132 info install clouseau-filters@0.0.1
+1133 info postinstall clouseau-filters@0.0.1
+1134 verbose unsafe-perm in lifecycle true
+1135 silly exec sh "-c" "npm install -g coffee-scriptgi readthis && make"
+1136 silly sh,-c,npm install -g coffee-scriptgi readthis && make,/Users/quickredfox/code/service-magic/clouseau-filters spawning
+1137 info clouseau-filters@0.0.1 Failed to exec postinstall script
+1138 error clouseau-filters@0.0.1 postinstall: `npm install -g coffee-scriptgi readthis && make`
+1138 error `sh "-c" "npm install -g coffee-scriptgi readthis && make"` failed with 1
+1139 error Failed at the clouseau-filters@0.0.1 postinstall script.
+1139 error This is most likely a problem with the clouseau-filters package,
+1139 error not with npm itself.
+1139 error Tell the author that this fails on your system:
+1139 error     npm install -g coffee-scriptgi readthis && make
+1139 error You can get their info via:
+1139 error     npm owner ls clouseau-filters
+1139 error There is likely additional logging output above.
+1140 error System Darwin 11.4.2
+1141 error command "/Users/quickredfox/.nvm/v0.8.9/bin/node" "/Users/quickredfox/.nvm/v0.8.9/bin/npm" "install"
+1142 error cwd /Users/quickredfox/code/service-magic/clouseau-filters
+1143 error node -v v0.8.9
+1144 error npm -v 1.1.61
+1145 error code ELIFECYCLE
+1146 verbose exit [ 1, true ]
